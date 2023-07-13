@@ -15,9 +15,9 @@ const TopBar = (props: any) => {
 
   return (
     <div className="w-full bg-main-01 flex flex-row justify-center items-center">
-      <div className="flex flex-row justify-between max-w-6xl w-full">
-        <div className="flex justify-center items-center py-3">{LogoSVG}</div>
-        <ul className="flex flex-row h-full flex-wrap items-center justify-center text-white">
+      <div className="flex flex-row flex-wrap justify-between max-w-6xl w-full">
+        <div className="flex w-full lg:w-auto justify-center items-center py-3">{LogoSVG}</div>
+        <ul className="flex w-full lg:w-auto flex-row h-full flex-wrap items-center justify-center text-white">
           <li className="cursor-pointer"
             onClick={() => setActiveMenu(MenuKeys.home)}
           >
@@ -79,7 +79,7 @@ const TopBar = (props: any) => {
             </div>
           </li>
         </ul>
-        <div className="flex justify-center items-center py-3"><Button>Apply to Launch</Button></div>
+        <div className="hidden lg:flex justify-center items-center py-3"><Button>Apply to Launch</Button></div>
       </div>
     </div>
   )
