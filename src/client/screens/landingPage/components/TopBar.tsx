@@ -22,7 +22,7 @@ const TopBar = (props: any) => {
             onClick={() => setActiveMenu(MenuKeys.home)}
           >
             <div className="relative w-full h-full py-5 px-4 flex justify-center">
-              <a className="mr-4 hover:underline md:mr-6">Home</a>
+              <a className={`mr-4 hover:underline md:mr-6 ${activeMenu === MenuKeys.home ? "text-active" : "text-white"}`}>Home</a>
               {activeMenu === MenuKeys.home && <div
                 className="absolute animate-indicator-change"
                 style={{
@@ -37,7 +37,7 @@ const TopBar = (props: any) => {
             onClick={() => setActiveMenu(MenuKeys.resources)}
           >
             <div className="relative w-full h-full py-5 px-4 flex justify-center">
-              <a className="mr-4 hover:underline md:mr-6">Resources</a>
+              <a className={`mr-4 hover:underline md:mr-6 ${activeMenu === MenuKeys.resources ? "text-active" : "text-white"}`}>Resources</a>
               {activeMenu === MenuKeys.resources && <div
                 className="absolute animate-indicator-change"
                 style={{
@@ -52,7 +52,7 @@ const TopBar = (props: any) => {
             onClick={() => setActiveMenu(MenuKeys.contact)}
           >
             <div className="relative w-full h-full py-5 px-4 flex justify-center">
-              <a className="mr-4 hover:underline md:mr-6">Contact Us</a>
+              <a className={`mr-4 hover:underline md:mr-6 ${activeMenu === MenuKeys.contact ? "text-active" : "text-white"}`}>Contact Us</a>
               {activeMenu === MenuKeys.contact && <div
                 className="absolute animate-indicator-change"
                 style={{
@@ -67,7 +67,7 @@ const TopBar = (props: any) => {
             onClick={() => setActiveMenu(MenuKeys.launch)}
           >
             <div className="relative w-full h-full py-5 px-4 flex justify-center">
-              <a className="mr-4 hover:underline md:mr-6">Launch App</a>
+              <a className={`mr-4 hover:underline md:mr-6 ${activeMenu === MenuKeys.launch ? "text-active" : "text-white"}`}>Launch App</a>
               {activeMenu === MenuKeys.launch && <div
                 className="absolute animate-indicator-change"
                 style={{

@@ -113,6 +113,7 @@ module.exports = {
       "white-07": "rgba(255,255,255, 0.7)",
       "white-09": "rgba(255,255,255, 0.9)",
       "main-01": "#040D27",
+      "active": "#618DFF",
     },
   },
   plugins: [],
