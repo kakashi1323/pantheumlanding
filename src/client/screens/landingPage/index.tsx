@@ -6,6 +6,7 @@ import PageBackground from "./components/PageBackground";
 import PageGraphic from "./components/PageGraphic";
 import PageContainer from "./components/PageContainer";
 import TopBar from "./components/TopBar";
+import Introduce from "./components/Introduce";
 
 const LandingPage = (props: any) => {
 
@@ -26,7 +27,7 @@ const LandingPage = (props: any) => {
           <PageGraphic>
             <div className="w-full flex flex-col">
               <TopBar />
-              {/* <Introduce /> */}
+              <Introduce />
               {/* <Branchs /> */}
               {/* <What /> */}
               {/* <How /> */}
