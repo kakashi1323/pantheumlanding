@@ -4,7 +4,10 @@ import { memo } from "react"
 const Footer = (props: any) => {
 
   return (
-    <div className="w-full flex flex-row justify-center items-center mt-20 bg-main-01">
+    <div className="w-full flex flex-row justify-center items-center mt-20 bg-main-01" style={{
+      borderTop: "1px solid #25335C",
+      background: "#0A1330"
+    }}>
       <div className="w-full flex flex-col lg:flex-row justify-center lg:justify-start items-center lg:items-start mt-20 pb-10" style={{ maxWidth: 1160 }}>
         <div className="flex flex-col">
           <div>{LogoSVG}</div>
@@ -17,7 +20,7 @@ const Footer = (props: any) => {
             lineHeight: "22px",
           }}>
             {LocationIcon}
-            <span className="ml-1">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.</span>
+            <span className="ml-1 hover:text-active cursor-pointer">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et.</span>
           </div>
           <div className="mt-3 flex flex-row items-center" style={{
             color: "#8593C5",
@@ -28,7 +31,7 @@ const Footer = (props: any) => {
             lineHeight: "22px",
           }}>
             {PhoneIcon}
-            <span className="ml-1">19002345</span>
+            <span className="ml-1 hover:text-active cursor-pointer">19002345</span>
           </div>
           <div className="mt-3 flex flex-row items-center" style={{
             color: "#8593C5",
@@ -39,7 +42,7 @@ const Footer = (props: any) => {
             lineHeight: "22px",
           }}>
             {MailBoxIcon}
-            <span className="ml-1">lorem@pantheum.com</span>
+            <span className="ml-1 hover:text-active cursor-pointer">lorem@pantheum.com</span>
           </div>
         </div>
         <div className="flex flex-col lg:ml-40 mt-4 lg:mt-0">
@@ -50,32 +53,28 @@ const Footer = (props: any) => {
             fontWeight: "700",
             lineHeight: "24px",
           }}>Menu</div>
-          <div className="mt-8" style={{
-            color: "#8593C5",
+          <div className="mt-8 text-sub hover:text-active cursor-pointer" style={{
             fontFamily: "Mulish",
             fontSize: "14px",
             fontStyle: "normal",
             fontWeight: "500",
             lineHeight: "22px",
           }}>Home</div>
-          <div className="mt-4" style={{
-            color: "#8593C5",
+          <div className="mt-4 text-sub hover:text-active cursor-pointer" style={{
             fontFamily: "Mulish",
             fontSize: "14px",
             fontStyle: "normal",
             fontWeight: "500",
             lineHeight: "22px",
           }}>Resources</div>
-          <div className="mt-4" style={{
-            color: "#8593C5",
+          <div className="mt-4 text-sub hover:text-active cursor-pointer" style={{
             fontFamily: "Mulish",
             fontSize: "14px",
             fontStyle: "normal",
             fontWeight: "500",
             lineHeight: "22px",
           }}>Contact Us</div>
-          <div className="mt-4" style={{
-            color: "#8593C5",
+          <div className="mt-4 text-sub hover:text-active cursor-pointer" style={{
             fontFamily: "Mulish",
             fontSize: "14px",
             fontStyle: "normal",
@@ -92,8 +91,8 @@ const Footer = (props: any) => {
             lineHeight: "24px",
           }}>Social Media</div>
           <div className="flex flex-row items-center mt-6">
-            <div className="flex w-8 h-8 rounded-full bg-fill-01 justify-center items-center">{TelegramIcon}</div>
-            <div className="flex ml-6 w-8 h-8 rounded-full bg-fill-01 justify-center items-center">{SocialIcon2}</div>
+            <div className="flex w-8 h-8 rounded-full bg-fill-01 justify-center items-center transition-all hover:-translate-y-1 hover:bg-active">{TelegramIcon}</div>
+            <div className="flex ml-6 w-8 h-8 rounded-full bg-fill-01 justify-center items-center transition-all hover:-translate-y-1 hover:bg-active">{SocialIcon2}</div>
           </div>
         </div>
       </div>

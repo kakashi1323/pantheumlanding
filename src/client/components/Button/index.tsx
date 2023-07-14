@@ -1,9 +1,9 @@
 import { memo } from "react"
 
 const Button = (props: any) => {
-  const { children, style = {}, ...nestedProps } = props
+  const { children, style = {}, className, ...nestedProps } = props
 
-  return <button style={{
+  return <button className={className} style={{
     borderRadius: "2.5rem",
     padding: "8.5px 24px",
     color: "#618DFF",

@@ -99,7 +99,7 @@ const Branchs = (props: any) => {
           scrollDistance={248}
           renderItem={(item: any, index: number) => {
             return (
-              <div key={item.id} className="flex justify-center items-center py-6 px-12 mx-4 bg-card-01"
+              <div key={item.id} className="flex justify-center items-center py-6 px-12 mx-4 bg-card-01 cursor-pointer"
                 style={{
                   width: 248,
                   height: 72
