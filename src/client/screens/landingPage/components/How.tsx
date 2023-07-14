@@ -1,7 +1,9 @@
 import { GraphicPath1, GraphicPath2, LaunchCardIcon, LightIcon, MarketingCardIcon, ShieldIcon } from "@/client/constants"
-import { memo, useMemo } from "react"
+import { memo, useEffect, useMemo, useState } from "react"
 
 const How = (props: any) => {
+
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 
   const graphicCards = useMemo(() => {
     return [
@@ -33,6 +35,17 @@ const How = (props: any) => {
         transform: `translateY(-50%)`
       }
     ]
+  }, [])
+
+  const handleSizeChange = () => {
+    setWindowWidth(window.innerWidth)
+  }
+
+  useEffect(() => {
+    window.addEventListener("resize", handleSizeChange)
+    return () => {
+      window.removeEventListener("resize", handleSizeChange)
+    }
   }, [])
 
   return (
@@ -77,7 +90,7 @@ const How = (props: any) => {
             <div key={`g-card-${index}`} className="flex flex-col rounded-2xl px-6 py-8 m-5" style={{
               border: "1px solid #25335C",
               background: "rgba(44, 57, 97, 0.10)",
-              transform: window.innerWidth > 1280 ? card.transform : ""
+              transform: windowWidth >= 1280 ? card.transform : ""
             }}>
               <div className="flex justify-center items-center w-16 h-16 rounded-xl"
                 style={{ background: card.iconBg }}>
