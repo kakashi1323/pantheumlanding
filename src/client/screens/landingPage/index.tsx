@@ -12,6 +12,8 @@ import What from "./components/What";
 import How from "./components/How";
 import Solutions from "./components/Solutions";
 import Cards from "./components/Cards";
+import GetMoreUpdates from "./components/GetMoreUpdates";
+import Footer from "./components/Footer";
 
 const LandingPage = (props: any) => {
 
@@ -38,8 +40,8 @@ const LandingPage = (props: any) => {
               <How />
               <Solutions />
               <Cards />
-              {/* <GetMoreUpdates /> */}
-              {/* <Footer /> */}
+              <GetMoreUpdates />
+              <Footer />
             </div>
           </PageGraphic>
         </PageContainer>

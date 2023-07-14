@@ -41,7 +41,7 @@ const Cards = (props: any) => {
   return (
     <div className="w-full bg-transparent flex flex-row justify-center items-center mt-20 py-8">
       <div className="w-full bg-transparent flex flex-col justify-center lg:justify-start items-center lg:items-start mt-20" style={{ maxWidth: 1160 }}>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
           {cards.map((item: any, idx: number) => {
             return <div key={idx} className="flex flex-col border rounded-2xl m-5 bg-card-02 px-6 py-10"
               style={{
