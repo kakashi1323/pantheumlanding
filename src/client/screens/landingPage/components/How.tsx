@@ -50,7 +50,7 @@ const How = (props: any) => {
 
   return (
     <div className="w-full bg-transparent flex flex-row justify-center items-center mt-20 py-8">
-      <div className="w-full bg-transparent flex flex-col justify-center lg:justify-start items-center lg:items-start mt-20" style={{ maxWidth: 1160 }}>
+      <div className="w-full bg-transparent flex flex-col justify-center lg:justify-start items-center lg:items-start mt-20 px-4" style={{ maxWidth: 1192 }}>
         <div className="flex max-w-xl" style={{
           color: "#FFF",
           fontFamily: "Mulish",

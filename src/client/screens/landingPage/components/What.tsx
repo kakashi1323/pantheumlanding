@@ -6,7 +6,7 @@ const What = (props: any) => {
 
   return (
     <div className="w-full bg-transparent flex flex-row justify-center items-center mt-20">
-      <div className="w-full bg-transparent flex flex-col lg:flex-row justify-center items-center mt-20" style={{ maxWidth: 1160 }}>
+      <div className="w-full bg-transparent flex flex-col lg:flex-row justify-center items-center mt-20 px-4" style={{ maxWidth: 1192 }}>
         <div className="flex w-full lg:w-fit lg:flex-1 justify-center items-center">
           {WhatIsPantheumGraph}
         </div>
