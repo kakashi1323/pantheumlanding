@@ -84,7 +84,7 @@ const TopBar = (props: any) => {
           </li>
         </ul>
 
-        <div className="hidden lg:flex justify-center items-center py-3"><Button>Apply to Launch</Button></div>
+        <div className="hidden lg:flex justify-center items-center py-3"><Button className="hover:text-yellow-400 hover:transition-all hover:-translate-x-1 hover:shadow-sm hover:shadow-sky-300">Apply to Launch</Button></div>
       </div>
 
       <div className="flex md:hidden w-full overflow-x-auto flex-row fixed bottom-0 z-50 bg-main-01 mr-1">

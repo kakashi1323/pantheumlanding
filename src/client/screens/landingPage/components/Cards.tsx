@@ -44,11 +44,11 @@ const Cards = (props: any) => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
           {cards.map((item: any, idx: number) => {
             return <div key={idx} className={`flex flex-col border rounded-2xl m-5 bg-card-02 px-6 py-10
-              cursor-pointer transition-all hover:-translate-y-1 hover:shadow-md hover:shadow-sky-300
+              cursor-pointer transition-all hover:-translate-y-1 hover:shadow-md hover:shadow-sky-300 hover:bg-sky-800
+              border-b-01 hover:border-sky-400
             `}
               style={{
                 backdropFilter: "blur(20px)",
-                border: "1px solid #25335C",
               }}
             >
               <div className="w-full flex justify-center items-center ">

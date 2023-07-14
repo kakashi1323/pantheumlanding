@@ -87,9 +87,8 @@ const How = (props: any) => {
             {GraphicPath1}
           </div>
           {graphicCards.map((card, index) => (
-            <div key={`g-card-${index}`} className="flex flex-col rounded-2xl px-6 py-8 m-5" style={{
+            <div key={`g-card-${index}`} className="flex flex-col rounded-2xl px-6 py-8 m-5 transition-all hover:shadow-sm bg-card-03 hover:shadow-sky-300 hover:bg-sky-800" style={{
               border: "1px solid #25335C",
-              background: "rgba(44, 57, 97, 0.10)",
               transform: windowWidth >= 1280 ? card.transform : ""
             }}>
               <div className="flex justify-center items-center w-16 h-16 rounded-xl"
