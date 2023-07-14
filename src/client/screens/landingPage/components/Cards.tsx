@@ -39,7 +39,7 @@ const Cards = (props: any) => {
   }, [])
 
   return (
-    <div className="w-full bg-transparent flex flex-row justify-center items-center mt-20 py-8">
+    <div className="w-full bg-transparent flex flex-row justify-center items-center mt-10 py-8">
       <div className="w-full bg-transparent flex flex-col justify-center lg:justify-start items-center lg:items-start mt-20 px-4" style={{ maxWidth: 1192 }}>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
           {cards.map((item: any, idx: number) => {

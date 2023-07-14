@@ -5,7 +5,7 @@ import { memo, useMemo } from "react"
 const Cards = (props: any) => {
 
   return (
-    <div className="w-full bg-transparent flex flex-row justify-center items-center mt-32 py-8">
+    <div className="w-full bg-transparent flex flex-row justify-center items-center mt-20 py-8">
       <div className="w-full bg-transparent flex flex-col justify-center items-center px-4" style={{ maxWidth: 1192 }}>
         <div className="w-full bg-transparent flex flex-col justify-center items-center relative" style={{ maxWidth: 774 }}>
           <div className="absolute hidden lg:flex" style={{

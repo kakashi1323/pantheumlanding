@@ -49,7 +49,7 @@ const How = (props: any) => {
   }, [])
 
   return (
-    <div className="w-full bg-transparent flex flex-row justify-center items-center mt-20 py-8">
+    <div className="w-full bg-transparent flex flex-row justify-center items-center mt-10 py-8">
       <div className="w-full bg-transparent flex flex-col justify-center lg:justify-start items-center lg:items-start mt-20 px-4" style={{ maxWidth: 1192 }}>
         <div className="flex max-w-xl" style={{
           color: "#FFF",
@@ -59,7 +59,7 @@ const How = (props: any) => {
           fontWeight: "800",
           lineHeight: "150%",
         }}>How does Pantheum work?</div>
-        <div className="flex max-w-md" style={{
+        <div className="flex max-w-md text-center lg:text-left" style={{
           color: "#8593C5",
           fontFamily: "Mulish",
           fontSize: "18px",
