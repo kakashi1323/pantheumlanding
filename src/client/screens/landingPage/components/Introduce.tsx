@@ -69,7 +69,7 @@ const Introduce = (props: any) => {
               Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla
             </div>
             <div className="mt-10">
-              <Button className={"transition-all hover:translate-x-2"} style={{
+              <Button className={"transition-all hover:translate-x-2 hover:shadow-sm hover:shadow-sky-300"} style={{
                 background: "linear-gradient(180deg, #B2C6FF 0%, #638AEF 100%)",
                 padding: "14.5px 24px 14.5px 32px"
               }}>

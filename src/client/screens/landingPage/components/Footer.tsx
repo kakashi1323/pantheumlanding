@@ -91,8 +91,8 @@ const Footer = (props: any) => {
             lineHeight: "24px",
           }}>Social Media</div>
           <div className="flex flex-row items-center mt-6">
-            <div className="flex w-8 h-8 rounded-full bg-fill-01 justify-center items-center transition-all hover:-translate-y-1 hover:bg-active">{TelegramIcon}</div>
-            <div className="flex ml-6 w-8 h-8 rounded-full bg-fill-01 justify-center items-center transition-all hover:-translate-y-1 hover:bg-active">{SocialIcon2}</div>
+            <div className="flex w-8 h-8 rounded-full bg-fill-01 justify-center items-center transition-all hover:-translate-y-1 hover:bg-active hover:shadow-md hover:shadow-sky-300 hover:text-yellow-500">{TelegramIcon}</div>
+            <div className="flex ml-6 w-8 h-8 rounded-full bg-fill-01 justify-center items-center transition-all hover:-translate-y-1 hover:bg-active hover:shadow-md hover:shadow-sky-300 hover:text-yellow-500">{SocialIcon2}</div>
           </div>
         </div>
       </div>

@@ -40,7 +40,7 @@ const Cards = (props: any) => {
           <div className="w-full">
             <div className="w-full bg-white rounded-4xl overflow-hidden relative mt-10">
               <div className="absolute top-1 right-0 h-full flex items-center justify-center transition-all hover:-translate-x-1" style={{ top: 0, right: 1 }}>
-                <Button style={{
+                <Button className={"hover:shadow-md hover:shadow-sky-300"} style={{
                   borderRadius: "40px",
                   background: "linear-gradient(180deg, #B2C6FF 0%, #638AEF 100%)",
                 }}>

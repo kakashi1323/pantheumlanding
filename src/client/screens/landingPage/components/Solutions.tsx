@@ -30,7 +30,7 @@ const What = (props: any) => {
             <div>From product development, marketing, fund-raising to a successful launch.</div>
           </div>
           <div className="flex mt-10 justify-center lg:justify-start">
-            <Button className={"transition-all hover:translate-x-2"}>
+            <Button className={"transition-all hover:translate-x-2 hover:shadow-sm hover:shadow-sky-300hover:shadow-sm hover:shadow-sky-300"}>
               <div className="flex flex-row items-center">
                 <span className="mr-6 ">Get started</span> {ArrorColor("#618DFF")}
               </div>
