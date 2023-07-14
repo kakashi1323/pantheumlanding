@@ -39,7 +39,7 @@ const Cards = (props: any) => {
             }}>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna</div>
           <div className="w-full">
             <div className="w-full bg-white rounded-4xl overflow-hidden relative mt-10">
-              <div className="absolute top-1 right-0 h-full" style={{ top: "1px", right: "2px" }}>
+              <div className="absolute top-1 right-0 h-full flex items-center justify-center" style={{ top: 0, right: 1 }}>
                 <Button style={{
                   borderRadius: "40px",
                   background: "linear-gradient(180deg, #B2C6FF 0%, #638AEF 100%)",
