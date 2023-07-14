@@ -42,9 +42,16 @@ module.exports = {
         star: "star 1200ms linear infinite",
         star2: "star2 1100ms linear infinite",
         star3: "star3 1300ms linear infinite",
+        menu: "menu_appear 350ms ease-in-out",
         "indicator-change": "indicator_change 250ms ease-in-out"
       },
       keyframes: {
+        menu_appear: {
+          "0%": {
+            transform: "translateX(100%)"
+          },
+          "100%": {},
+        },
         wide: {
           "0%": {
             opacity: "0.85",
@@ -122,7 +129,8 @@ module.exports = {
       "card-03": "rgba(44, 57, 97, 0.10)",
       "fill-01": "rgba(17, 29, 69, 0.40)",
       "fill-02": "#111D45",
-      "b-01": "#25335C"
+      "b-01": "#25335C",
+      "blurry": "rgba(255,255,255, 0.3125)"
     },
   },
   plugins: [],

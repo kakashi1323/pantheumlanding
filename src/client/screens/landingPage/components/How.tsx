@@ -51,7 +51,7 @@ const How = (props: any) => {
   return (
     <div className="w-full bg-transparent flex flex-row justify-center items-center mt-10 py-8">
       <div className="w-full bg-transparent flex flex-col justify-center lg:justify-start items-center lg:items-start mt-20 px-4" style={{ maxWidth: 1192 }}>
-        <div className="flex max-w-xl" style={{
+        <div className="flex max-w-xl text-center lg:text-left" style={{
           color: "#FFF",
           fontFamily: "Mulish",
           fontSize: "40px",
@@ -87,7 +87,7 @@ const How = (props: any) => {
             {GraphicPath1}
           </div>
           {graphicCards.map((card, index) => (
-            <div key={`g-card-${index}`} className="flex flex-col rounded-2xl px-6 py-8 m-5 transition-all hover:shadow-sm bg-card-03 hover:shadow-sky-300 hover:bg-sky-800" style={{
+            <div key={`g-card-${index}`} className="hidden lg:flex flex-col rounded-2xl px-6 py-8 m-5 transition-all hover:shadow-sm bg-card-03 hover:shadow-sky-300 hover:bg-sky-800" style={{
               border: "1px solid #25335C",
               transform: windowWidth >= 1280 ? card.transform : ""
             }}>
@@ -115,6 +115,48 @@ const How = (props: any) => {
               }}>{card.description}</div>
             </div>
           ))}
+          <div className="grid lg:hidden w-full grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+            {graphicCards.map((card: any, index: number) => {
+              return <div key={index} className={`flex w-full flex-col border rounded-2xl m-0 sm:m-5 bg-card-02 px-6 py-10
+              cursor-pointer transition-all hover:-translate-y-1 hover:shadow-md hover:shadow-sky-300 
+              border-b-01 hover:border-sky-400
+            `}
+                style={{
+                  backdropFilter: "blur(20px)",
+                  minWidth: 252
+                }}
+              >
+                <div className="mt-6 w-full flex justify-center" >
+                  <div className="mt-6 w-full flex justify-start" >
+                    <div className="flex justify-center items-center w-16 h-16 rounded-xl"
+                      style={{ background: card.iconBg }}>
+                      {card.icon}
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-6 w-full flex" >
+                  <div style={{
+                    color: "#FFF",
+                    fontFamily: "Mulish",
+                    fontSize: "18px",
+                    fontStyle: "normal",
+                    fontWeight: "700",
+                    lineHeight: "150%",
+                  }}>{card.title}</div>
+                </div>
+                <div className="mt-6 w-full flex" >
+                  <div style={{
+                    color: "#8593C5",
+                    fontFamily: "Mulish",
+                    fontSize: "16px",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight: "150%",
+                  }}>{card.description}</div>
+                </div>
+              </div>;
+            })}
+          </div>
         </div>
       </div>
     </div >

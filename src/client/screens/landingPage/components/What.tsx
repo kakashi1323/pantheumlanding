@@ -26,8 +26,8 @@ const What = (props: any) => {
             fontWeight: "500",
             lineHeight: "150%",
           }}>
-            <div>Comprehensive Incubation and diverse ecosystem for any Web3 project to thrive</div>
-            <div>From product development, marketing, fund-raising to a successful launch.</div>
+            <div className="text-center lg:text-left">Comprehensive Incubation and diverse ecosystem for any Web3 project to thrive</div>
+            <div className="text-center lg:text-left">From product development, marketing, fund-raising to a successful launch.</div>
           </div>
           <div className="flex mt-10 justify-center lg:justify-start">
             <Button className={"transition-all hover:translate-x-2 hover:shadow-sm hover:shadow-sky-300hover:shadow-sm hover:shadow-sky-300"}>
