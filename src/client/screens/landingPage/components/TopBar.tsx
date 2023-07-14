@@ -86,6 +86,71 @@ const TopBar = (props: any) => {
 
         <div className="hidden lg:flex justify-center items-center py-3"><Button>Apply to Launch</Button></div>
       </div>
+
+      <div className="flex md:hidden w-full overflow-x-auto flex-row fixed bottom-0 z-50 bg-main-01 mr-1">
+        <ul className="flex flex-row min-w-fit flex-no-wrap items-center justify-center text-white">
+          <li className="cursor-pointer whitespace-nowrap"
+            onClick={() => setActiveMenu(MenuKeys.home)}
+          >
+            <div className="relative w-full h-full py-5 px-4 flex justify-center">
+              <a className={`mr-4 hover:underline md:mr-6 ${activeMenu === MenuKeys.home ? "text-active" : "text-white"}`}>Home</a>
+              {activeMenu === MenuKeys.home && <div
+                className="absolute animate-indicator-change"
+                style={{
+                  borderBottom: "2px solid #618DFF",
+                  width: "100%",
+                  top: 0
+                }}
+              ></div>}
+            </div>
+          </li>
+          <li className="cursor-pointer whitespace-nowrap"
+            onClick={() => setActiveMenu(MenuKeys.resources)}
+          >
+            <div className="relative w-full h-full py-5 px-4 flex justify-center">
+              <a className={`mr-4 hover:underline md:mr-6 ${activeMenu === MenuKeys.resources ? "text-active" : "text-white"}`}>Resources</a>
+              {activeMenu === MenuKeys.resources && <div
+                className="absolute animate-indicator-change"
+                style={{
+                  borderBottom: "2px solid #618DFF",
+                  width: "100%",
+                  top: 0
+                }}
+              ></div>}
+            </div>
+          </li>
+          <li className="cursor-pointer whitespace-nowrap"
+            onClick={() => setActiveMenu(MenuKeys.contact)}
+          >
+            <div className="relative w-full h-full py-5 px-4 flex justify-center">
+              <a className={`mr-4 hover:underline md:mr-6 ${activeMenu === MenuKeys.contact ? "text-active" : "text-white"}`}>Contact Us</a>
+              {activeMenu === MenuKeys.contact && <div
+                className="absolute animate-indicator-change"
+                style={{
+                  borderBottom: "2px solid #618DFF",
+                  width: "100%",
+                  top: 0
+                }}
+              ></div>}
+            </div>
+          </li>
+          <li className="cursor-pointer whitespace-nowrap"
+            onClick={() => setActiveMenu(MenuKeys.launch)}
+          >
+            <div className="relative w-full h-full py-5 px-4 flex justify-center">
+              <a className={`mr-4 hover:underline md:mr-6 ${activeMenu === MenuKeys.launch ? "text-active" : "text-white"}`}>Launch App</a>
+              {activeMenu === MenuKeys.launch && <div
+                className="absolute animate-indicator-change"
+                style={{
+                  borderBottom: "2px solid #618DFF",
+                  width: "100%",
+                  top: 0
+                }}
+              ></div>}
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
   )
 }
