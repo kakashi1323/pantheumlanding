@@ -8,6 +8,8 @@ import PageContainer from "./components/PageContainer";
 import TopBar from "./components/TopBar";
 import Introduce from "./components/Introduce";
 import Branchs from "./components/Branchs";
+import What from "./components/What";
+import How from "./components/How";
 
 const LandingPage = (props: any) => {
 
@@ -30,8 +32,8 @@ const LandingPage = (props: any) => {
               <TopBar />
               <Introduce />
               <Branchs />
-              {/* <What /> */}
-              {/* <How /> */}
+              <What />
+              <How />
               {/* <Solutions /> */}
               {/* <Cards /> */}
               {/* <GetMoreUpdates /> */}
