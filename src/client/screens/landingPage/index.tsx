@@ -10,6 +10,8 @@ import Introduce from "./components/Introduce";
 import Branchs from "./components/Branchs";
 import What from "./components/What";
 import How from "./components/How";
+import Solutions from "./components/Solutions";
+import Cards from "./components/Cards";
 
 const LandingPage = (props: any) => {
 
@@ -34,8 +36,8 @@ const LandingPage = (props: any) => {
               <Branchs />
               <What />
               <How />
-              {/* <Solutions /> */}
-              {/* <Cards /> */}
+              <Solutions />
+              <Cards />
               {/* <GetMoreUpdates /> */}
               {/* <Footer /> */}
             </div>

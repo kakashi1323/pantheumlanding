@@ -1,5 +1,5 @@
 import Button from "@/client/components/Button"
-import { ArrorColor, WhatIsPantheumGraph } from "@/client/constants"
+import { ArrorColor, PantheumSolutionsGraph } from "@/client/constants"
 import { memo } from "react"
 
 const What = (props: any) => {
@@ -8,7 +8,7 @@ const What = (props: any) => {
     <div className="w-full bg-transparent flex flex-row justify-center items-center mt-20">
       <div className="w-full bg-transparent flex flex-col lg:flex-row justify-center items-center mt-20" style={{ maxWidth: 1160 }}>
         <div className="flex w-full lg:w-fit lg:flex-1 justify-center items-center">
-          {WhatIsPantheumGraph}
+          {PantheumSolutionsGraph}
         </div>
         <div className="flex w-full lg:w-fit lg:flex-1 text-center lg:text-left flex-col mt-4 lg:pl-24">
           <div className="text-white" style={{
@@ -17,7 +17,7 @@ const What = (props: any) => {
             fontStyle: "normal",
             fontWeight: "800",
             lineHeight: "150%",
-          }}>What is Pantheum?</div>
+          }}>Our Solutions</div>
           <div className="flex flex-col justify-center items-center text-left mt-4 lg:mt-0" style={{
             color: "#8593C5",
             fontFamily: "Mulish",
