@@ -93,20 +93,29 @@ const Branchs = (props: any) => {
       >
         Honored To Be Accompanied With
       </div>
-      <div className="w-full mt-8">
+      <div className="w-full mt-8 mb-8">
         <Carousel
-          single={false}
           resources={branchs}
-          imageStyle={{
-            width: 248
-          }}
-          renderItem={(item: any) => {
+          scrollDistance={248}
+          renderItem={(item: any, index: number) => {
             return (
-              <div key={item.id} className="flex justify-center items-center py-6 px-12 mx-4 bg-card-01">
-                <img src={item.url} style={{
-                  width: 120,
-                  height: 28
-                }} />
+              <div key={item.id} className="flex justify-center items-center py-6 px-12 mx-4 bg-card-01"
+                style={{
+                  width: 248,
+                  height: 72
+                }}>
+                <img
+                  src={item.url}
+                  style={{
+                    width: 120,
+                    height: 28,
+                    minWidth: 120,
+                    minHeight: 28
+                  }}
+                  id={`carousel-image-${item.id || item._id || index}`}
+                  className="h-full w-full cursor-pointer"
+                  key={item.url}
+                />
               </div>
             )
           }}

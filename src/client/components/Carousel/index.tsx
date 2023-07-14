@@ -7,7 +7,6 @@ import LazyLoadImage from "../LazyImage";
 const Carosel = (props: any) => {
   const {
     resources,
-    single = true,
     intervalTime = 3500,
     minHeight = 200,
     imageStyle = {},
@@ -15,6 +14,7 @@ const Carosel = (props: any) => {
     renderItem,
     navigateControl,
     disabledAutoSlide = false,
+    scrollDistance = 120
   } = props;
   const [isHovered, setIsHovered] = useState(false);
 
@@ -27,12 +27,12 @@ const Carosel = (props: any) => {
       var intervalId = setInterval(() => {
         if (isHovered || disabledAutoSlide) return;
         if (
-          containerElement.scrollLeft + imageStyle.width + rect.width + 16 >
+          containerElement.scrollLeft + scrollDistance + rect.width + 16 >
           containerElement.scrollWidth
         ) {
           containerElement.scrollLeft = 0;
         } else {
-          containerElement.scrollLeft += imageStyle.width + 16 || 266;
+          containerElement.scrollLeft += scrollDistance + 16 || 266;
         }
       }, intervalTime);
     }
@@ -48,31 +48,10 @@ const Carosel = (props: any) => {
           `carousel-content-container-${id}`
         );
         if (containerElement) {
-          containerElement.scrollLeft += direct * (imageStyle.width + 16 || 266);
+          containerElement.scrollLeft += direct * (scrollDistance + 16 || 266);
         }
       };
 
-  if (single) {
-    return (
-      <div
-        className={"w-full flex justify-center items-center flex-col"}
-        style={{
-          minHeight,
-        }}
-      >
-        <FlowbiteCarousel
-          slideInterval={intervalTime}
-          style={{
-            minHeight,
-          }}
-        >
-          {resources.map((item: any) => (
-            <img className="h-auto max-w-full" src={item.url} key={item.url} />
-          ))}
-        </FlowbiteCarousel>
-      </div>
-    );
-  }
   return (
     <div
       className="flex w-full flex-row flex-nowrap overflow-hidden relative"
