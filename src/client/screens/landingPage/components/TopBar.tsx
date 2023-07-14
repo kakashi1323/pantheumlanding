@@ -19,7 +19,7 @@ const TopBar = (props: any) => {
   }
 
   return (
-    <div className="w-full bg-main-01 flex flex-row justify-center items-center">
+    <div className="w-full bg-main-01 flex flex-row justify-center items-center animate-down">
       <div className="flex flex-row flex-wrap justify-between max-w-6xl w-full relative">
         <div className="flex w-full lg:w-auto justify-center items-center py-3">{LogoSVG}</div>
         <div className="absolute flex md:hidden right-2 top-2" data-dropdown-toggle="menu" data-dropdown-trigger="click"

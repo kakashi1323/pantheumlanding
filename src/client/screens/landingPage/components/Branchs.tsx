@@ -73,7 +73,7 @@ const Branchs = (props: any) => {
   }, [])
 
   return (
-    <div className="w-full bg-transparent flex flex-col justify-center items-center mt-20 border-t border-b py-6"
+    <div className="w-full bg-transparent flex flex-col justify-center items-center mt-20 border-t border-b py-6 animate-appear"
       style={{
         borderColor: "rgba(97, 141, 255, 0.15)",
       }}

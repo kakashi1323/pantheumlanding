@@ -11,15 +11,17 @@ const Introduce = (props: any) => {
     <div className="w-full bg-transparent flex flex-col justify-center items-center mt-20">
       <div className="flex flex-col flex-wrap justify-between max-w-6xl w-full">
         <div className="w-full flex flex-row justify-center items-center relative">
-          <div className="absolute top-0 left-10 hidden lg:flex" style={{
+          <div className="absolute top-0 left-10 hidden lg:flex animate-icon-appear" style={{
             top: "-30px",
-            left: "136px"
+            left: "136px",
+            animationDelay: "150ms"
           }}>{BRounded}</div>
-          <div className="absolute top-0 right-10 hidden lg:flex" style={{
+          <div className="absolute top-0 right-10 hidden lg:flex animate-icon-appear" style={{
             top: "-30px",
-            right: "136px"
+            right: "136px",
+            animationDelay: "180ms"
           }}>{ERounded}</div>
-          <div className="flex flex-row justify-center items-center">
+          <div className="flex flex-row justify-center items-center animate-appear">
             {LogoCapitalSVG}
           </div>
         </div>
@@ -27,13 +29,15 @@ const Introduce = (props: any) => {
 
       <div className="flex flex-col flex-wrap justify-between max-w-6xl w-full mt-8">
         <div className="w-full flex flex-row justify-center items-center relative">
-          <div className="absolute top-0 left-10 hidden lg:flex" style={{
-            top: "36px"
+          <div className="absolute top-0 left-10 hidden lg:flex animate-icon-appear delay-75" style={{
+            top: "36px",
+            animationDelay: "75ms"
           }}>{MoneyPinkRounded}</div>
-          <div className="absolute top-0 right-10 hidden lg:flex" style={{
-            top: "36px"
+          <div className="absolute top-0 right-10 hidden lg:flex animate-icon-appear delay-100" style={{
+            top: "36px",
+            animationDelay: "100ms"
           }}>{MoneyYellowRounded}</div>
-          <div className="flex flex-row justify-center items-center text-white" style={{
+          <div className="flex flex-row justify-center items-center text-white animate-appear" style={{
             fontFamily: "Mulish",
             fontSize: "40px",
             fontStyle: "normal",
@@ -50,14 +54,15 @@ const Introduce = (props: any) => {
 
       <div className="flex flex-col flex-wrap justify-between max-w-6xl w-full mt-4">
         <div className="w-full flex flex-row justify-center items-center relative">
-          <div className="absolute top-0 left-14 hidden lg:flex" style={{
+          <div className="absolute top-0 left-14 hidden lg:flex animate-icon-appear" style={{
             top: "36px"
           }}>{EtheGreenRounded}</div>
-          <div className="absolute top-0 right-14 hidden lg:flex" style={{
-            top: "36px"
-          }}>{BPinkRounded}</div>
+          <div className="absolute top-0 right-14 hidden lg:flex animate-icon-appear
+          " style={{
+              top: "36px",
+            }}>{BPinkRounded}</div>
           <div className="flex flex-col justify-center items-center">
-            <div className="flex flex-row justify-center items-center text-sub" style={{
+            <div className="flex flex-row justify-center items-center text-sub animate-appear" style={{
               fontFamily: "Mulish",
               textAlign: "center",
               fontSize: "18px",
@@ -73,7 +78,7 @@ const Introduce = (props: any) => {
                 background: "linear-gradient(180deg, #B2C6FF 0%, #638AEF 100%)",
                 padding: "14.5px 24px 14.5px 32px"
               }}>
-                <div className="flex flex-row items-center">
+                <div className="flex flex-row items-center animate-appear">
                   <span className="mr-6 text-white">Join Whitelist</span> {ArrorWhite}
                 </div>
               </Button>

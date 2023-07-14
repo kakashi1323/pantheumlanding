@@ -43,9 +43,33 @@ module.exports = {
         star2: "star2 1100ms linear infinite",
         star3: "star3 1300ms linear infinite",
         menu: "menu_appear 350ms ease-in-out",
+        down: "down 350ms ease-in-out",
+        appear: "appear 350ms ease-in-out",
+        "icon-appear": "icon_appear 400ms ease-in-out",
         "indicator-change": "indicator_change 250ms ease-in-out"
       },
       keyframes: {
+        down: {
+          "0%": {
+            transform: "translateY(-100%)",
+            opacity: 0.225
+          },
+          "100%": {},
+        },
+        appear: {
+          "0%": {
+            opacity: 0.225,
+            transform: "rotateX(90deg) translateY(50%)"
+          },
+          "100%": {},
+        },
+        icon_appear: {
+          "0%": {
+            transform: "translateX(25%) translateY(100%) scale(0.2)",
+            opacity: 0.125
+          },
+          "100%": {},
+        },
         menu_appear: {
           "0%": {
             transform: "translateX(100%)"
