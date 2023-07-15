@@ -154,7 +154,7 @@ module.exports = {
       "fill-01": "rgba(17, 29, 69, 0.40)",
       "fill-02": "#111D45",
       "b-01": "#25335C",
-      "blurry": "rgba(255,255,255, 0.3125)"
+      "blurry": "rgba(0,0,0, 0.6)"
     },
   },
   plugins: [],

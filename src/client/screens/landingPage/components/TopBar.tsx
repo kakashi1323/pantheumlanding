@@ -97,7 +97,9 @@ const TopBar = (props: any) => {
           </li>
           <li className="cursor-pointer flex lg:hidden">
             <div className="relative w-full h-full py-5 px-4 flex justify-center">
-              <a className={`mr-4 hover:underline md:mr-6 text-orange-400`}>Apply to Launch</a>
+              <Button className="hover:text-yellow-400 hover:transition-all hover:-translate-x-1 hover:shadow-sm hover:shadow-sky-300">
+                Apply to Launch
+              </Button>
             </div>
           </li>
         </ul>
@@ -115,29 +117,31 @@ const TopBar = (props: any) => {
         <ul onClick={(e) => {
           e.preventDefault();
           e.stopPropagation();
-        }} className="animate-menu flex flex-col w-fit overflow-auto items-start justify-start text-white bg-main-01 shadow-lg shadow-blue-300">
-          <li className={`cursor-pointer whitespace-nowrap w-full ${activeMenu === MenuKeys.home ? "bg-sky-700 font-medium " : ""}`}
+        }} className="animate-menu min-w-max flex flex-col w-fit overflow-auto items-start justify-start text-white bg-main-01 shadow-lg shadow-blue-300"
+          style={{ minWidth: "55%" }}
+        >
+          <li className={`cursor-pointer whitespace-nowrap w-full ${activeMenu === MenuKeys.home ? "bg-sky-700 font-bold " : ""}`}
             onClick={() => setActiveMenu(MenuKeys.home)}
           >
             <div className="relative w-full h-full py-5 px-4 flex justify-center">
               <a className={`mr-4 hover:underline md:mr-6 ${activeMenu === MenuKeys.home ? "text-active" : "text-white"}`}>Home</a>
             </div>
           </li>
-          <li className={`cursor-pointer whitespace-nowrap w-full ${activeMenu === MenuKeys.resources ? "bg-sky-700 font-medium " : ""}`}
+          <li className={`cursor-pointer whitespace-nowrap w-full ${activeMenu === MenuKeys.resources ? "bg-sky-700 font-bold " : ""}`}
             onClick={() => setActiveMenu(MenuKeys.resources)}
           >
             <div className="relative w-full h-full py-5 px-4 flex justify-center">
               <a className={`mr-4 hover:underline md:mr-6 ${activeMenu === MenuKeys.resources ? "text-active" : "text-white"}`}>Resources</a>
             </div>
           </li>
-          <li className={`cursor-pointer whitespace-nowrap w-full ${activeMenu === MenuKeys.contact ? "bg-sky-700 font-medium " : ""}`}
+          <li className={`cursor-pointer whitespace-nowrap w-full ${activeMenu === MenuKeys.contact ? "bg-sky-700 font-bold " : ""}`}
             onClick={() => setActiveMenu(MenuKeys.contact)}
           >
             <div className="relative w-full h-full py-5 px-4 flex justify-center">
               <a className={`mr-4 hover:underline md:mr-6 ${activeMenu === MenuKeys.contact ? "text-active" : "text-white"}`}>Contact Us</a>
             </div>
           </li>
-          <li className={`cursor-pointer whitespace-nowrap w-full ${activeMenu === MenuKeys.launch ? "bg-sky-700 font-medium " : ""}`}
+          <li className={`cursor-pointer whitespace-nowrap w-full ${activeMenu === MenuKeys.launch ? "bg-sky-700 font-bold " : ""}`}
             onClick={() => setActiveMenu(MenuKeys.launch)}
           >
             <div className="relative w-full h-full py-5 px-4 flex justify-center">
@@ -145,9 +149,11 @@ const TopBar = (props: any) => {
             </div>
           </li>
           <div className="w-full border-t border-slate-400" ></div>
-          <li className="cursor-pointer whitespace-nowrap">
-            <div className="relative w-full h-full py-5 px-4 flex justify-center">
-              <a className={`mr-4 hover:underline md:mr-6 "text-white`}>Apply to Launch</a>
+          <li className="w-full cursor-pointer whitespace-nowrap">
+            <div className="w-full h-full py-5 px-4 flex justify-center">
+              <Button className="hover:text-yellow-400 hover:transition-all hover:-translate-x-1 hover:shadow-sm hover:shadow-sky-300">
+                Apply to Launch
+              </Button>
             </div>
           </li>
         </ul>
