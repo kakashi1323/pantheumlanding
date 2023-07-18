@@ -5,15 +5,18 @@ const Button = (props: any) => {
 
   return <button className={className} style={{
     borderRadius: "2.5rem",
-    padding: "8.5px 24px",
-    color: "#618DFF",
-    fontFamily: "Mulish",
-    fontSize: "18px",
+    padding: "16px 24px",
+    color: "rgba(19, 18, 21, 1)",
+    fontFamily: "Manrope",
+    fontSize: "12px",
     fontStyle: "normal",
     fontWeight: "700",
-    lineHeight: "150%",
-    border: "solid 1px #618DFF",
-    background: "linear-gradient(95deg, rgba(239, 243, 255, 0.15) 0%, rgba(125, 158, 243, 0.15) 68.75%)",
+    lineHeight: "18px",
+    letterSpacing: "0.12em",
+    textAlign: "left",
+    border: "none",
+    boxShadow: "0px 4px 24px 0px rgba(169, 83, 255, 0.48)",
+    background: "#FFF",
     ...style
   }}
     {...nestedProps}>

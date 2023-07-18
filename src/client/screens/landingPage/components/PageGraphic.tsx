@@ -8,8 +8,10 @@ const PageGraphic = (props: any) => {
     <div className="w-full min-h-screen bg-transparent h-fit z-50 flex flex-col justify-start">
       {children}
     </div>
-    <div className="w-full h-full bg-transparent absolute z-0 top-0 left-0 flex flex-col">
+    <div className="w-full h-full bg-transparent absolute z-0 top-0 left-0">
       {/**Graphic here */}
+      <div className="w-full h-full min-h-screen flex flex-col bg-main-gradient">
+      </div>
     </div>
   </div>
 }

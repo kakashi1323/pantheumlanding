@@ -5,6 +5,7 @@ import { memo, useEffect, useState } from "react"
 import PageBackground from "./components/PageBackground";
 import PageGraphic from "./components/PageGraphic";
 import PageContainer from "./components/PageContainer";
+import TopBar from "./components/TopBar"
 
 const LandingPage = (props: any) => {
 
@@ -24,7 +25,7 @@ const LandingPage = (props: any) => {
         <PageContainer>
           <PageGraphic>
             <div className="w-full flex flex-col">
-
+              <TopBar />
             </div>
           </PageGraphic>
         </PageContainer>
