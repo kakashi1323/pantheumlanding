@@ -37,3 +37,60 @@ body {
   width: 0;
   height: 0;
 }
+
+.text-description {
+  color: #E9E9E9;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%;
+}
+
+.text-title {
+  color: #FFF;
+  font-family: MADE Outer Sans;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 109.091%;
+}
+
+.text-title-2 {
+  color: #FFF;
+  font-family: MADE Outer Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 133.333%;
+}
+
+.text-title-3 {
+  color: #FFF;
+  font-family: MADE Outer Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 150%;
+}
+
+.text-graphic {
+  font-family: MADE Outer Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 133.333;
+  text-transform: uppercase;
+}
+
+.text-graphic-2 {
+  font-family: MADE Outer Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 120%;
+  background: linear-gradient(180deg, #BBB 0%, #646369 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

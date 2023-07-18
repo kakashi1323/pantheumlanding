@@ -3,10 +3,9 @@ import { memo } from "react"
 const Button = (props: any) => {
   const { children, style = {}, className, ...nestedProps } = props
 
-  return <button className={className} style={{
+  return <button className={`text-button-text hover:text-active-01 ${className}`} style={{
     borderRadius: "2.5rem",
     padding: "16px 24px",
-    color: "rgba(19, 18, 21, 1)",
     fontFamily: "Manrope",
     fontSize: "12px",
     fontStyle: "normal",

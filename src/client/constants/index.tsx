@@ -19,3 +19,27 @@ export const CONTENT_FULL_SIZE = 1440;
 export const CaretLeft = <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path d="M6.025 13.0002L0 6.9752L6.025 0.950195L7.1 2.0252L2.15 6.9752L7.1 11.9252L6.025 13.0002Z" fill="white" />
 </svg>
+
+export const BigCaretRight = <svg width="60" height="75" viewBox="0 0 70 90" fill="white" xmlns="http://www.w3.org/2000/svg">
+  <g filter="url(#filter0_d_892_1585)">
+    <path d="M45.735 40.5188C45.9 40.8189 45.9 41.1826 45.7349 41.4826L35.2849 60.4819C35.1092 60.8015 34.7734 61 34.4087 61H25.6913C24.9307 61 24.4485 60.1845 24.8151 59.5181L34.7349 41.4826C34.9 41.1826 34.9 40.8189 34.735 40.5188L24.815 22.4819C24.4485 21.8155 24.9306 21 25.6912 21H34.4087C34.7734 21 35.1092 21.1985 35.2849 21.5181L45.735 40.5188Z" fill="white" />
+    <path d="M45.735 40.5188C45.9 40.8189 45.9 41.1826 45.7349 41.4826L35.2849 60.4819C35.1092 60.8015 34.7734 61 34.4087 61H25.6913C24.9307 61 24.4485 60.1845 24.8151 59.5181L34.7349 41.4826C34.9 41.1826 34.9 40.8189 34.735 40.5188L24.815 22.4819C24.4485 21.8155 24.9306 21 25.6912 21H34.4087C34.7734 21 35.1092 21.1985 35.2849 21.5181L45.735 40.5188Z" stroke="url(#paint0_linear_892_1585)" stroke-width="0.2" />
+  </g>
+  <defs>
+    <filter id="filter0_d_892_1585" x="0.589661" y="0.899902" width="69.3691" height="88.2002" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+      <feOffset dy="4" />
+      <feGaussianBlur stdDeviation="12" />
+      <feComposite in2="hardAlpha" operator="out" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.6625 0 0 0 0 0.325 0 0 0 0 1 0 0 0 0.48 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_892_1585" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_892_1585" result="shape" />
+    </filter>
+    <linearGradient id="paint0_linear_892_1585" x1="32.1481" y1="6.41667" x2="35.1307" y2="60.9929" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A953FF" />
+      <stop offset="1" stop-color="white" />
+    </linearGradient>
+  </defs>
+</svg>
+

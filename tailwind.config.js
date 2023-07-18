@@ -57,6 +57,8 @@ module.exports = {
       "trans-004": "rgba(19, 18, 21, 0.04)",
       "default-black": "rgba(19, 18, 21, 1)",
       "active-01": "#618DFF",
+      "button-text": "rgba(19, 18, 21, 1)",
+      "hyphen": "#6048FF"
     },
   },
   plugins: [],
