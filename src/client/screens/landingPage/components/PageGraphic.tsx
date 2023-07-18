@@ -10,7 +10,12 @@ const PageGraphic = (props: any) => {
     </div>
     <div className="w-full h-full bg-transparent absolute z-0 top-0 left-0">
       {/**Graphic here */}
-      <div className="w-full h-full min-h-screen flex flex-col bg-main-gradient">
+      <div className="bg-no-repeat bg-auto" style={{
+        backgroundImage: "url(/images/graphicBG.png)",
+        backgroundSize: "100% auto",
+      }}><div className="w-full h-full min-h-screen flex flex-col bg-main-gradient" style={{ height: `calc(960 / 1440 * 100vw)` }}>
+          {/**Header section graphic*/}
+        </div>
       </div>
     </div>
   </div>
