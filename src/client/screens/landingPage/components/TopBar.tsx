@@ -9,7 +9,7 @@ const TopBar = (props: any) => {
       <div className="flex flex-row justify-start">
         {HexcellentLogoSVG}
       </div>
-      <div className="flex w-fit flex-row justify-end items-center p-1 rounded-full bg-trans-004">
+      <div className="flex w-fit flex-row justify-end items-center p-1 rounded-full bg-trans-004 backdrop-blur-xl">
         <ul className="flex flex-row mr-4">
           <li className="mx-3 uppercase text-xs font-semibold text-white cursor-pointer hover:text-active-01 transition-all">Our Services</li>
           <div className="border-l border-white h-3"></div>
