@@ -43,3 +43,41 @@ export const BigCaretRight = <svg width="60" height="75" viewBox="0 0 70 90" fil
   </defs>
 </svg>
 
+export const PlusIcon = <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g filter="url(#filter0_d_892_1409)">
+    <path d="M35.5001 20.8238C35.8094 21.0025 36 21.3326 36 21.6898V26.3088C36 26.666 35.8094 26.9961 35.5 27.1748L31.7247 29.3545C31.5727 29.4423 31.4465 29.5685 31.3587 29.7205L29.1762 33.5001C28.9975 33.8094 28.6674 34 28.3102 34H23.6913C23.334 34 23.0039 33.8094 22.8252 33.5L20.6441 29.7219C20.5563 29.5699 20.4301 29.4437 20.2781 29.3559L16.5 27.1748C16.1906 26.9961 16 26.666 16 26.3087V21.6898C16 21.3326 16.1906 21.0025 16.4999 20.8238L20.2795 18.6413C20.4315 18.5535 20.5577 18.4273 20.6455 18.2753L22.8252 14.5C23.0039 14.1906 23.334 14 23.6912 14H28.3102C28.6674 14 28.9975 14.1906 29.1762 14.4999L31.3573 18.2768C31.4451 18.4287 31.5713 18.5549 31.7232 18.6427L35.5001 20.8238Z" fill="url(#paint0_linear_892_1409)" />
+    <path d="M35.4501 20.9104C35.7285 21.0712 35.9 21.3683 35.9 21.6898V26.3088C35.9 26.6303 35.7285 26.9274 35.45 27.0882L31.6747 29.2679C31.5075 29.3644 31.3686 29.5033 31.2721 29.6705L29.0896 33.4501C28.9288 33.7285 28.6317 33.9 28.3102 33.9H23.6913C23.3697 33.9 23.0726 33.7285 22.9118 33.45L20.7307 29.6719C20.6342 29.5047 20.4953 29.3658 20.3281 29.2693L16.55 27.0882C16.2715 26.9274 16.1 26.6303 16.1 26.3087V21.6898C16.1 21.3683 16.2715 21.0712 16.5499 20.9104L20.3295 18.7279C20.4967 18.6314 20.6356 18.4925 20.7321 18.3253L22.9118 14.55C23.0726 14.2715 23.3697 14.1 23.6912 14.1H28.3102C28.6317 14.1 28.9288 14.2715 29.0896 14.5499L31.2707 18.3268C31.3672 18.4939 31.5061 18.6328 31.6732 18.7293L35.4501 20.9104Z" stroke="url(#paint1_linear_892_1409)" stroke-width="0.2" />
+  </g>
+  <defs>
+    <filter id="filter0_d_892_1409" x="0" y="0" width="52" height="52" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+      <feOffset dy="2" />
+      <feGaussianBlur stdDeviation="8" />
+      <feComposite in2="hardAlpha" operator="out" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.6625 0 0 0 0 0.325 0 0 0 0 1 0 0 0 0.48 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_892_1409" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_892_1409" result="shape" />
+    </filter>
+    <linearGradient id="paint0_linear_892_1409" x1="34.4579" y1="47.2812" x2="7.82474" y2="40.7684" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A953FF" />
+      <stop offset="1" stop-color="#6048FF" />
+    </linearGradient>
+    <linearGradient id="paint1_linear_892_1409" x1="26" y1="14" x2="26" y2="34" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" />
+      <stop offset="1" stop-color="#A953FF" />
+    </linearGradient>
+  </defs>
+</svg>
+
+export const LongHyphen = <svg width="156" height="1" viewBox="0 0 156 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <line y1="0.5" x2="156" y2="0.5" stroke="url(#paint0_linear_892_1440)" />
+  <defs>
+    <linearGradient id="paint0_linear_892_1440" x1="143.972" y1="2.66406" x2="143.821" y2="-3.1032" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A953FF" />
+      <stop offset="1" stop-color="#6048FF" />
+    </linearGradient>
+  </defs>
+</svg>
+
+

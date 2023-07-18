@@ -37,7 +37,8 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "main-gradient": `linear-gradient(180deg, rgba(138, 66, 255, 0.24) 34.88%, rgba(19, 18, 21, 0) 100%),
             linear-gradient(180deg, rgba(151, 71, 255, 0) 50%, rgba(19, 18, 21, 0) 50%, #131215 100%, #131215 100%)
-          `
+          `,
+        "linear-01": "linear-gradient(340deg, rgba(169, 83, 255, 0.08) 0%, rgba(96, 72, 255, 0.08) 100%)"
       },
       animation: {
         "expand-wide": "wide 2s linear infinite",
@@ -58,7 +59,8 @@ module.exports = {
       "default-black": "rgba(19, 18, 21, 1)",
       "active-01": "#618DFF",
       "button-text": "rgba(19, 18, 21, 1)",
-      "hyphen": "#6048FF"
+      "hyphen": "#6048FF",
+      "graphic-001": "#A953FF"
     },
   },
   plugins: [],
