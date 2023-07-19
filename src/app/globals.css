@@ -64,7 +64,7 @@ body {
 
 .text-title {
   color: #FFF;
-  font-family: 'MADE Outer Sans', sans-serif;
+  font-family: MADE Outer Sans;
   font-size: 88px;
   font-style: normal;
   font-weight: 250;
@@ -73,7 +73,7 @@ body {
 
 .text-title-2 {
   color: #FFF;
-  font-family: 'MADE Outer Sans', sans-serif;
+  font-family: MADE Outer Sans;
   font-size: 54px;
   font-style: normal;
   font-weight: 250;
@@ -82,7 +82,7 @@ body {
 
 .text-title-3 {
   color: #FFF;
-  font-family: 'MADE Outer Sans', sans-serif;
+  font-family: MADE Outer Sans;
   font-size: 36px;
   font-style: normal;
   font-weight: 250;
@@ -90,7 +90,7 @@ body {
 }
 
 .text-graphic {
-  font-family: 'MADE Outer Sans', sans-serif;
+  font-family: MADE Outer Sans;
   font-size: 48px;
   font-style: normal;
   font-weight: 250;
@@ -99,7 +99,7 @@ body {
 }
 
 .text-graphic-2 {
-  font-family: 'MADE Outer Sans', sans-serif;
+  font-family: MADE Outer Sans;
   font-size: 40px;
   font-style: normal;
   font-weight: 250;

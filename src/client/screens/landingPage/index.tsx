@@ -8,6 +8,8 @@ import PageContainer from "./components/PageContainer";
 import TopBar from "./components/TopBar"
 import Inovative from "./components/Inovative"
 import Services from "./components/Services"
+import WhyChooseUs from "./components/WhyChooseUs"
+import CaseStudy from "./components/CaseStudy"
 
 const LandingPage = (props: any) => {
 
@@ -30,6 +32,8 @@ const LandingPage = (props: any) => {
               <TopBar />
               <Inovative />
               <Services />
+              <WhyChooseUs />
+              <CaseStudy />
             </div>
           </PageGraphic>
         </PageContainer>
