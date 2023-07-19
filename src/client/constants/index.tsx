@@ -80,4 +80,24 @@ export const LongHyphen = <svg width="156" height="1" viewBox="0 0 156 1" fill="
   </defs>
 </svg>
 
+export const LeftCaretMini = <svg width="18" height="32" viewBox="0 0 18 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0.275764 15.5103C0.104536 15.8147 0.104542 16.1864 0.27578 16.4908L8.71327 31.4903C8.89039 31.8051 9.22357 32 9.58484 32H16.2901C17.055 32 17.5367 31.1763 17.1617 30.5097L9.27578 16.4908C9.10454 16.1864 9.10454 15.8147 9.27577 15.5103L17.1618 1.49024C17.5367 0.823641 17.055 0 16.2902 0H9.58486C9.22358 0 8.89039 0.194868 8.71328 0.509752L0.275764 15.5103Z" fill="url(#paint0_linear_970_1356)" />
+  <defs>
+    <linearGradient id="paint0_linear_970_1356" x1="1.38785" y1="53.25" x2="26.3194" y2="49.8206" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A953FF" />
+      <stop offset="1" stop-color="#6048FF" />
+    </linearGradient>
+  </defs>
+</svg>
+
+export const RightCaretMini = <svg width="18" height="32" viewBox="0 0 18 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M17.7242 15.5103C17.8955 15.8147 17.8955 16.1864 17.7242 16.4908L9.28673 31.4903C9.10961 31.8051 8.77643 32 8.41516 32H1.70988C0.945045 32 0.463331 31.1763 0.83831 30.5097L8.72422 16.4908C8.89546 16.1864 8.89546 15.8147 8.72423 15.5103L0.838232 1.49024C0.463281 0.823641 0.944997 0 1.70982 0H8.41514C8.77642 0 9.10961 0.194868 9.28672 0.509752L17.7242 15.5103Z" fill="url(#paint0_linear_970_1359)" />
+  <defs>
+    <linearGradient id="paint0_linear_970_1359" x1="16.6122" y1="53.25" x2="-8.3194" y2="49.8206" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A953FF" />
+      <stop offset="1" stop-color="#6048FF" />
+    </linearGradient>
+  </defs>
+</svg>
+
 

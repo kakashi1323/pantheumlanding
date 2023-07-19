@@ -120,3 +120,28 @@ body {
   border-radius: 1000px;
   background: linear-gradient(340deg, rgba(169, 83, 255, 0.08) 0%, rgba(96, 72, 255, 0.08) 100%);
 }
+
+.graphic-numbering {
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  background: var(--gradient-color-1, linear-gradient(226deg, #A953FF 0%, #6048FF 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.graphic-numbering-active {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}

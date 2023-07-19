@@ -1,5 +1,5 @@
 import Button from "@/client/components/Button"
-import { CONTENT_FULL_SIZE, LongHyphen, PlusIcon } from "@/client/constants"
+import { CONTENT_FULL_SIZE, LeftCaretMini, LongHyphen, PlusIcon, RightCaretMini } from "@/client/constants"
 import { memo } from "react"
 
 const Services = (props: any) => {
@@ -39,10 +39,77 @@ const Services = (props: any) => {
         </div>
 
         <div className="w-full relative flex flex-col">
-          <div className="w-full flex flex-col">
-
+          <div className="w-full flex flex-col z-30 mt-36 items-center">
+            <div className="flex flex-row items-center my-4">
+              <div>{LeftCaretMini}</div>
+              <div className={"cursor-pointer graphic-button border border-graphic-001 w-fit flex flex-row items-center text-center mx-6"}>
+                <div className="graphic-numbering">01</div>
+                <div className="text-graphic text-graphic-001 font-thin" style={{ color: "white", fontSize: 40, lineHeight: "48px" }}>NFT Services</div>
+              </div>
+              <div>{RightCaretMini}</div>
+              <div className="text-graphic-2 whitespace-nowrap ml-10">GameFi & Metaverse</div>
+            </div>
+            <div className="flex flex-row items-center my-4">
+              <div>{LeftCaretMini}</div>
+              <div className={"cursor-pointer graphic-button border border-graphic-001 w-fit flex flex-row items-center text-center mx-6"}
+                style={{
+                  background: "linear-gradient(340deg, #A953FF 0%, #6048FF 100%)"
+                }}
+              >
+                <div className="graphic-numbering-active">02</div>
+                <div className="text-graphic text-graphic-001 font-thin" style={{ color: "white", fontSize: 40, lineHeight: "48px" }}>Crypto Tools & Services</div>
+              </div>
+              <div>{RightCaretMini}</div>
+            </div>
+            <div className="flex flex-row items-center my-4">
+              <div className="text-graphic-2 whitespace-nowrap mr-10">Security & Auditing</div>
+              <div>{LeftCaretMini}</div>
+              <div className={"cursor-pointer graphic-button border border-graphic-001 w-fit flex flex-row items-center text-center mx-6"}>
+                <div className="graphic-numbering">03</div>
+                <div className="text-graphic text-graphic-001 font-thin" style={{ color: "white", fontSize: 40, lineHeight: "48px" }}>DeFi Development</div>
+              </div>
+              <div>{RightCaretMini}</div>
+              <div className="text-graphic-2 whitespace-nowrap ml-10">Consulting Services</div>
+            </div>
+            <div className="flex flex-row items-center my-4">
+              <div>{LeftCaretMini}</div>
+              <div className={"cursor-pointer graphic-button border border-graphic-001 w-fit flex flex-row items-center text-center mx-6"}>
+                <div className="graphic-numbering">04</div>
+                <div className="text-graphic text-graphic-001 font-thin" style={{ color: "white", fontSize: 40, lineHeight: "48px" }}>Blockchain Development Services</div>
+              </div>
+              <div>{RightCaretMini}</div>
+            </div>
+            <div className="flex flex-row items-center my-4">
+              <div className="text-graphic-2 whitespace-nowrap mr-10">Crypto Tools & Services</div>
+              <div>{LeftCaretMini}</div>
+              <div className={"cursor-pointer graphic-button border border-graphic-001 w-fit flex flex-row items-center text-center mx-6"}>
+                <div className="graphic-numbering">05</div>
+                <div className="text-graphic text-graphic-001 font-thin" style={{ color: "white", fontSize: 40, lineHeight: "48px" }}>Crypto Tools & Services</div>
+              </div>
+              <div>{RightCaretMini}</div>
+              <div className="text-graphic-2 whitespace-nowrap ml-10">Blockchain Development Services</div>
+            </div>
+            <div className="flex flex-row items-center my-4">
+              <div className="text-graphic-2 whitespace-nowrap mr-10">DeFi Development</div>
+              <div>{LeftCaretMini}</div>
+              <div className={"cursor-pointer graphic-button border border-graphic-001 w-fit flex flex-row items-center text-center mx-6"}>
+                <div className="graphic-numbering">06</div>
+                <div className="text-graphic text-graphic-001 font-thin" style={{ color: "white", fontSize: 40, lineHeight: "48px" }}>Consulting Services</div>
+              </div>
+              <div>{RightCaretMini}</div>
+              <div className="text-graphic-2 whitespace-nowrap ml-10">Crypto Tools and Services</div>
+            </div>
+            <div className="flex flex-row items-center my-4">
+              <div>{LeftCaretMini}</div>
+              <div className={"cursor-pointer graphic-button border border-graphic-001 w-fit flex flex-row items-center text-center mx-6"}>
+                <div className="graphic-numbering">07</div>
+                <div className="text-graphic text-graphic-001 font-thin" style={{ color: "white", fontSize: 40, lineHeight: "48px" }}>Security and Auditing</div>
+              </div>
+              <div>{RightCaretMini}</div>
+            </div>
           </div>
-          <div className="absolute top-100 w-full h-fit flex flex-row flex-end" style={{ width: CONTENT_FULL_SIZE, top: 450 }}>
+
+          <div className="absolute top-100 w-full h-fit flex flex-row flex-end z-20" style={{ width: CONTENT_FULL_SIZE, top: 450 }}>
             <div style={{
               width: "1118.574px",
               height: "317.132px",
@@ -55,7 +122,7 @@ const Services = (props: any) => {
               {/* eclipse 1 graphic */}
             </div>
           </div>
-          <div className="absolute top-100 text-opacity-100 w-full h-fit flex flex-row flex-end" style={{ width: CONTENT_FULL_SIZE, top: 450 }}>
+          <div className="absolute top-100 text-opacity-100 w-full h-fit flex flex-row flex-end z-20" style={{ width: CONTENT_FULL_SIZE, top: 450 }}>
             <div style={{
               width: "1319.973px",
               height: "340.229px",
