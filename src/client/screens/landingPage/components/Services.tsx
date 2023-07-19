@@ -40,17 +40,17 @@ const Services = (props: any) => {
 
         <div className="w-full relative flex flex-col">
           <div className="w-full flex flex-col z-30 mt-36 items-center">
-            <div className="flex flex-row items-center my-4">
-              <div>{LeftCaretMini}</div>
+            <div className="flex flex-row items-center my-4 transition-all translate-x-1/2">
+              <div className="cursor-pointer">{LeftCaretMini}</div>
               <div className={"cursor-pointer graphic-button border border-graphic-001 w-fit flex flex-row items-center text-center mx-6"}>
                 <div className="graphic-numbering">01</div>
                 <div className="text-graphic text-graphic-001 font-thin" style={{ color: "white", fontSize: 40, lineHeight: "48px" }}>NFT Services</div>
               </div>
-              <div>{RightCaretMini}</div>
+              <div className="cursor-pointer">{RightCaretMini}</div>
               <div className="text-graphic-2 whitespace-nowrap ml-10">GameFi & Metaverse</div>
             </div>
-            <div className="flex flex-row items-center my-4">
-              <div>{LeftCaretMini}</div>
+            <div className="flex flex-row items-center my-4 transition-all translate-x-1/4">
+              <div className="cursor-pointer">{LeftCaretMini}</div>
               <div className={"cursor-pointer graphic-button border border-graphic-001 w-fit flex flex-row items-center text-center mx-6"}
                 style={{
                   background: "linear-gradient(340deg, #A953FF 0%, #6048FF 100%)"
@@ -59,53 +59,53 @@ const Services = (props: any) => {
                 <div className="graphic-numbering-active">02</div>
                 <div className="text-graphic text-graphic-001 font-thin" style={{ color: "white", fontSize: 40, lineHeight: "48px" }}>Crypto Tools & Services</div>
               </div>
-              <div>{RightCaretMini}</div>
+              <div className="cursor-pointer">{RightCaretMini}</div>
             </div>
-            <div className="flex flex-row items-center my-4">
+            <div className="flex flex-row items-center my-4 transition-all -translate-x-52">
               <div className="text-graphic-2 whitespace-nowrap mr-10">Security & Auditing</div>
-              <div>{LeftCaretMini}</div>
+              <div className="cursor-pointer">{LeftCaretMini}</div>
               <div className={"cursor-pointer graphic-button border border-graphic-001 w-fit flex flex-row items-center text-center mx-6"}>
                 <div className="graphic-numbering">03</div>
                 <div className="text-graphic text-graphic-001 font-thin" style={{ color: "white", fontSize: 40, lineHeight: "48px" }}>DeFi Development</div>
               </div>
-              <div>{RightCaretMini}</div>
+              <div className="cursor-pointer">{RightCaretMini}</div>
               <div className="text-graphic-2 whitespace-nowrap ml-10">Consulting Services</div>
             </div>
-            <div className="flex flex-row items-center my-4">
-              <div>{LeftCaretMini}</div>
+            <div className="flex flex-row items-center my-4 transition-all -translate-x-32">
+              <div className="cursor-pointer">{LeftCaretMini}</div>
               <div className={"cursor-pointer graphic-button border border-graphic-001 w-fit flex flex-row items-center text-center mx-6"}>
                 <div className="graphic-numbering">04</div>
                 <div className="text-graphic text-graphic-001 font-thin" style={{ color: "white", fontSize: 40, lineHeight: "48px" }}>Blockchain Development Services</div>
               </div>
-              <div>{RightCaretMini}</div>
+              <div className="cursor-pointer">{RightCaretMini}</div>
             </div>
-            <div className="flex flex-row items-center my-4">
+            <div className="flex flex-row items-center my-4 transition-all -translate-x-48">
               <div className="text-graphic-2 whitespace-nowrap mr-10">Crypto Tools & Services</div>
-              <div>{LeftCaretMini}</div>
+              <div className="cursor-pointer">{LeftCaretMini}</div>
               <div className={"cursor-pointer graphic-button border border-graphic-001 w-fit flex flex-row items-center text-center mx-6"}>
                 <div className="graphic-numbering">05</div>
                 <div className="text-graphic text-graphic-001 font-thin" style={{ color: "white", fontSize: 40, lineHeight: "48px" }}>Crypto Tools & Services</div>
               </div>
-              <div>{RightCaretMini}</div>
+              <div className="cursor-pointer">{RightCaretMini}</div>
               <div className="text-graphic-2 whitespace-nowrap ml-10">Blockchain Development Services</div>
             </div>
             <div className="flex flex-row items-center my-4">
               <div className="text-graphic-2 whitespace-nowrap mr-10">DeFi Development</div>
-              <div>{LeftCaretMini}</div>
+              <div className="cursor-pointer">{LeftCaretMini}</div>
               <div className={"cursor-pointer graphic-button border border-graphic-001 w-fit flex flex-row items-center text-center mx-6"}>
                 <div className="graphic-numbering">06</div>
                 <div className="text-graphic text-graphic-001 font-thin" style={{ color: "white", fontSize: 40, lineHeight: "48px" }}>Consulting Services</div>
               </div>
-              <div>{RightCaretMini}</div>
+              <div className="cursor-pointer">{RightCaretMini}</div>
               <div className="text-graphic-2 whitespace-nowrap ml-10">Crypto Tools and Services</div>
             </div>
-            <div className="flex flex-row items-center my-4">
-              <div>{LeftCaretMini}</div>
+            <div className="flex flex-row items-center my-4 transition-all translate-x-36">
+              <div className="cursor-pointer">{LeftCaretMini}</div>
               <div className={"cursor-pointer graphic-button border border-graphic-001 w-fit flex flex-row items-center text-center mx-6"}>
                 <div className="graphic-numbering">07</div>
                 <div className="text-graphic text-graphic-001 font-thin" style={{ color: "white", fontSize: 40, lineHeight: "48px" }}>Security and Auditing</div>
               </div>
-              <div>{RightCaretMini}</div>
+              <div className="cursor-pointer">{RightCaretMini}</div>
             </div>
           </div>
 
