@@ -60,7 +60,8 @@ module.exports = {
       "active-01": "#618DFF",
       "button-text": "rgba(19, 18, 21, 1)",
       "hyphen": "#6048FF",
-      "graphic-001": "#A953FF"
+      "graphic-001": "#A953FF",
+      "card": "#272529"
     },
   },
   plugins: [],

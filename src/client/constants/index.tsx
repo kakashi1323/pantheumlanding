@@ -189,4 +189,13 @@ export const Cisco = <svg width="231" height="119" viewBox="0 0 231 119" fill="n
   </defs>
 </svg>
 
+export const ArrowLeft = <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M16 26.6668L17.4 25.2335L9.16667 17.0002H26.6667V15.0002H9.16667L17.4 6.76683L16 5.3335L5.33334 16.0002L16 26.6668Z" fill="#646369" />
+</svg>
+
+export const ArrowRight = <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M16 26.6668L14.6 25.2335L22.8333 17.0002H5.33334V15.0002H22.8333L14.6 6.76683L16 5.3335L26.6667 16.0002L16 26.6668Z" fill="#131215" />
+</svg>
+
+
 

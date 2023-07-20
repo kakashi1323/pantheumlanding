@@ -55,7 +55,7 @@ body {
   font-style: normal;
   font-weight: 250;
   line-height: 150%;
-letter-spacing: -0.48px;
+  letter-spacing: -0.48px;
 }
 
 .text-small-title {
@@ -94,6 +94,24 @@ letter-spacing: -0.48px;
   color: #FFF;
   font-family: MADE Outer Sans;
   font-size: 36px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 150%;
+}
+
+.text-title-4 {
+  color: #FFF;
+  font-family: MADE Outer Sans;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 150%;
+}
+
+.text-title-5 {
+  color: #FFF;
+  font-family: MADE Outer Sans;
+  font-size: 28px;
   font-style: normal;
   font-weight: 250;
   line-height: 150%;
@@ -154,4 +172,9 @@ letter-spacing: -0.48px;
   line-height: 30px; /* 150% */
   letter-spacing: 4px;
   text-transform: uppercase;
+}
+
+.scroll-hidden::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
