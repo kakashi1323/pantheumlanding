@@ -22,9 +22,7 @@ const Services = (props: any) => {
             display: "inline-flex",
             flexWrap: "wrap",
           }}>{LongHyphen}</div>} We approach every project with a focus on
-          <div className="flex flex-col justify-center items-center lg:translate-x-12 lg:-translate-y-12"
-            style={{
-            }}>
+          <div className="flex flex-col justify-center items-center lg:translate-x-12 lg:-translate-y-12">
             <div className={"cursor-pointer graphic-button border border-graphic-001 w-fit text-center"}>
               <div className="text-graphic text-graphic-001 font-thin ">Innovation</div>
             </div>

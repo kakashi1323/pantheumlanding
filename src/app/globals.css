@@ -48,6 +48,16 @@ body {
   line-height: 175%;
 }
 
+.text-description-2 {
+  color: #DEDEDE;
+  font-family: MADE Outer Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 150%;
+letter-spacing: -0.48px;
+}
+
 .text-small-title {
   font-family: Manrope;
   font-size: 14px;

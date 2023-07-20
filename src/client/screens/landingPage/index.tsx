@@ -10,6 +10,7 @@ import Inovative from "./components/Inovative"
 import Services from "./components/Services"
 import WhyChooseUs from "./components/WhyChooseUs"
 import CaseStudy from "./components/CaseStudy"
+import MyTeam from "./components/MyTeam"
 
 const LandingPage = (props: any) => {
 
@@ -34,6 +35,7 @@ const LandingPage = (props: any) => {
               <Services />
               <WhyChooseUs />
               <CaseStudy />
+              <MyTeam />
             </div>
           </PageGraphic>
         </PageContainer>
