@@ -15,15 +15,15 @@ const Services = (props: any) => {
           </div>
         </div>
 
-        <div className="w-full mt-10 text-title-2-mobile sm:text-title-2 flex-row flex-wrap items-center px-2 relative">
-          <span className="hidden sm:block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div className="w-full mt-10 text-title-2-mobile sm:text-title-2 flex-row flex-wrap items-center px-2 relative" style={{ maxWidth: 780 }}>
+          <span className="hidden sm:contents">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           Whether it's developing custom blockchain applications, building decentralized exchanges, or creating NFT marketplaces.
           {<div className="align-middle" style={{
             whiteSpace: "nowrap",
             display: "inline-flex",
             flexWrap: "wrap",
           }}>{LongHyphen}</div>} We approach every project with a focus on
-          <div className="flex flex-col justify-center items-end sm:items-center mt-2 sm:mt-0 lg:translate-x-12 lg:-translate-y-12">
+          <div className="flex flex-col justify-center items-end sm:items-center mt-6 lg:translate-x-12 lg:-translate-y-12">
             <div className={"cursor-pointer graphic-button border border-graphic-001 w-fit text-center"}>
               <div className="text-graphic-mobile sm:text-graphic text-graphic-001 font-thin ">Innovation</div>
             </div>

@@ -320,3 +320,18 @@ body {
 .max-width-100 {
   max-width: 100vw;
 }
+
+.top-menu-item-text {
+  color: var(--neutral-white, #FFF);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  letter-spacing: 2.56px;
+  text-transform: uppercase;
+}
+
+.content-collapse {
+  transition: all 250ms ease-in-out 0ms;
+}

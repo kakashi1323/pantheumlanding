@@ -42,6 +42,8 @@ module.exports = {
       },
       animation: {
         "expand-wide": "wide 2s linear infinite",
+        "expand": "expand 350ms ease-in-out",
+        "collapse": "collapse 350ms ease-in-out",
       },
       keyframes: {
         wide: {
@@ -50,6 +52,16 @@ module.exports = {
           },
           "100%": { opacity: "0.12", transform: "scale(1000)" },
         },
+        expand: {
+          "0%": {
+            height: 0
+          }
+        },
+        collapse: {
+          "0%": {
+            height: "auto"
+          }
+        }
       },
     },
     colors: {
@@ -63,7 +75,8 @@ module.exports = {
       "graphic-001": "#A953FF",
       "card": "#272529",
       "input-bg": "rgba(255, 255, 255, 0.16)",
-      "neutral-black": "#131215"
+      "neutral-black": "#131215",
+      "white-01": "#DEDEDE"
     },
   },
   plugins: [],

@@ -34,7 +34,7 @@ const MyTeam = (props: any) => {
         </div>
       </div>
 
-      <div className="flex w-full mt-40 overflow-x-auto scroll-smooth scroll-hidden pl-12 flex-row" style={{ maxWidth: CONTENT_FULL_SIZE }}>
+      <div className="flex w-full mt-40 overflow-x-auto scroll-smooth scroll-hidden lg:pl-12 flex-row" style={{ maxWidth: CONTENT_FULL_SIZE }}>
         <div className="flex flex-row w-fit" style={{ maxWidth: CONTENT_FULL_SIZE }}>
           <div className="flex relative mx-3 bg-card overflow-hidden border-none rounded-3xl" style={{
             minWidth: "330px",
