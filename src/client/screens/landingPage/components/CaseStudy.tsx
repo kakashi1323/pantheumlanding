@@ -4,7 +4,8 @@ import { memo } from "react"
 const CaseStudy = (props: any) => {
 
   return (
-    <div className="flex w-full h-full justify-center items-center">
+    <div className="flex w-full flex-col h-full justify-center items-center">
+      <div id={"case-study"}></div>
       <div className="flex w-full flex-row px-6 justify-between" style={{ maxWidth: CONTENT_FULL_SIZE }}>
         <div className="flex w-full flex-col items-center">
           <div className="flex mt-3 flex-col items-center">

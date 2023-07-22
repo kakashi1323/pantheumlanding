@@ -1,4 +1,4 @@
-import { CONTENT_FULL_SIZE, Cisco, Coinbase, Google, Nasa, PlusIcon, RightCaretMini, A } from "@/client/constants"
+import { CONTENT_FULL_SIZE, Cisco, Coinbase, Google, Nasa, PlusIcon, RightCaretMini, A, ChessLine } from "@/client/constants"
 import { memo } from "react"
 
 const HorizontalLine = <div className="flex my-14 w-full h-0" style={{
@@ -12,8 +12,9 @@ const VerticalLine = <div className="flex h-full w-0 mx-14" style={{
 
 const WhyChooseUs = (props: any) => {
 
-  return <div className="flex w-full h-full justify-center items-center" style={{ minHeight: 880 }}>
-    <div className="flex w-full flex-row p-6 justify-between" style={{ maxWidth: CONTENT_FULL_SIZE }}>
+  return <div className="flex w-full h-full flex-col justify-center items-center" style={{ minHeight: 880 }}>
+    <div id={"why-choose-us"}></div>
+    <div className="flex w-full flex-row p-6 justify-between">
       <div className="flex w-full flex-col mt-44 items-center">
         <div className="flex mt-3 w-full flex-row items-center" style={{ maxWidth: 920 }}>
           <div className="mr-2">{PlusIcon}</div>
@@ -22,7 +23,7 @@ const WhyChooseUs = (props: any) => {
           </div>
         </div>
 
-        <div className="flex flex-row w-full flex-wrap justify-center">
+        <div className="flex flex-row w-full flex-wrap justify-center" style={{ maxWidth: CONTENT_FULL_SIZE }}>
           <div className="flex rounded-4xl bg-neutral-800" style={{ width: 566, height: 566 }}></div>
           <div className="flex pl-36 flex-col mt-14">
             <div className="flex flex-col">
@@ -59,7 +60,7 @@ const WhyChooseUs = (props: any) => {
           </div>
         </div>
 
-        <div className="flex flex-col w-full flex-wrap items-center mt-40">
+        <div className="flex flex-col w-full flex-wrap items-center mt-40" style={{ maxWidth: CONTENT_FULL_SIZE }}>
           <div className="flex flex-row items-center text-title-3">
             <div className="flex text-title-3">
               Innovative Blockchain Solutions
@@ -77,18 +78,29 @@ const WhyChooseUs = (props: any) => {
         </div>
 
         <div className="flex w-full justify-center">
-          <div className="flex w-fit relative items-end" style={{ minHeight: 848 }}>
-            <div className="flex flex-row justify-center flex-wrap w-full" style={{
-              maxWidth: 1204,
-              minHeight: 360,
-              background: "linear-gradient(180deg, #131215 0%, #131215 100%)"
-            }}
-            >
-              {Google}
-              {Nasa}
-              {A}
-              {Coinbase}
-              {Cisco}
+          <div className="flex w-fit relative" style={{ paddingBottom: 270 }}>
+            {ChessLine}
+            <div className="flex w-full bg-transparent absolute z-20 overflow-hidden justify-center">
+              <div className="rounded-full" style={{
+                background: "linear-gradient(212deg, rgba(169, 83, 255, 0.60) 0%, rgba(96, 72, 255, 0.60) 100%)",
+                filter: "blur(120px)",
+                width: "452px",
+                height: "432px",
+              }}></div>
+            </div>
+            <div className="flex w-full absolute flex-row justify-center z-30" style={{ maxWidth: CONTENT_FULL_SIZE, top: 420 }}>
+              <div className="flex flex-row justify-center flex-wrap w-full" style={{
+                maxWidth: 1204,
+                minHeight: 360,
+                background: "linear-gradient(180deg, #131215 0%, #131215 100%)",
+              }}
+              >
+                {Google}
+                {Nasa}
+                {A}
+                {Coinbase}
+                {Cisco}
+              </div>
             </div>
           </div>
         </div>

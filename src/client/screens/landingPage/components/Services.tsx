@@ -7,6 +7,7 @@ const Services = (props: any) => {
   return <div className="flex w-full h-full justify-center items-center" style={{ minHeight: 880 }}>
     <div className="flex w-full flex-row p-6 justify-between" style={{ maxWidth: CONTENT_FULL_SIZE }}>
       <div className="flex w-full flex-col mt-44 items-center">
+        <div id={"services"}></div>
         <div className="flex mt-3 w-full flex-row items-center" style={{ maxWidth: 684 }}>
           <div className="mr-2">{PlusIcon}</div>
           <div className="text-small-title">

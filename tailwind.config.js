@@ -61,7 +61,9 @@ module.exports = {
       "button-text": "rgba(19, 18, 21, 1)",
       "hyphen": "#6048FF",
       "graphic-001": "#A953FF",
-      "card": "#272529"
+      "card": "#272529",
+      "input-bg": "rgba(255, 255, 255, 0.16)",
+      "neutral-black": "#131215"
     },
   },
   plugins: [],

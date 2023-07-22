@@ -5,6 +5,7 @@ const MyTeam = (props: any) => {
 
   return (
     <div className="flex w-full h-full flex-col justify-center items-center mt-80">
+      <div id="our-team"></div>
       <div className="flex w-full flex-col px-4" style={{ maxWidth: CONTENT_FULL_SIZE }}>
         <div className="flex w-full flex-col items-center">
           <div className="flex w-full mt-3 items-center" style={{ maxWidth: 1120 }}>
@@ -127,8 +128,6 @@ const MyTeam = (props: any) => {
           </div>
         </div>
       </div>
-
-      <div className="flex w-full flex-col mt-52"></div>
     </div>
   )
 }

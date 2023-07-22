@@ -11,6 +11,8 @@ import Services from "./components/Services"
 import WhyChooseUs from "./components/WhyChooseUs"
 import CaseStudy from "./components/CaseStudy"
 import MyTeam from "./components/MyTeam"
+import ContactUs from "./components/ContactUs"
+import PageFixed from "./components/PageFixed";
 
 const LandingPage = (props: any) => {
 
@@ -26,6 +28,7 @@ const LandingPage = (props: any) => {
 
   return (
     <div className="w-screen h-screen overflow-auto">
+      <PageFixed />
       <PageBackground>
         <PageContainer>
           <PageGraphic>
@@ -36,6 +39,7 @@ const LandingPage = (props: any) => {
               <WhyChooseUs />
               <CaseStudy />
               <MyTeam />
+              <ContactUs />
             </div>
           </PageGraphic>
         </PageContainer>

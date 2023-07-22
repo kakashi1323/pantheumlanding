@@ -6,6 +6,7 @@ const Inovative = (props: any) => {
   return <div className="flex w-full h-full justify-center items-center" style={{ minHeight: 880 }}>
     <div className="flex w-full flex-row p-6 justify-between" style={{ maxWidth: CONTENT_FULL_SIZE }}>
       <div className="flex flex-col">
+        <div id={"innovative"}></div>
         <div className="flex text-title flex-row items-end" style={{ maxWidth: 480 }}>
           Innovative Blockchain
         </div>

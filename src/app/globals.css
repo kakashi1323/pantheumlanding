@@ -81,6 +81,16 @@ body {
   line-height: 109.091%;
 }
 
+.text-title-1 {
+  color: var(--neutral-white, #FFF);
+  font-family: MADE Outer Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 64px; /* 133.333% */
+  text-transform: capitalize;
+}
+
 .text-title-2 {
   color: #FFF;
   font-family: MADE Outer Sans;
@@ -115,6 +125,26 @@ body {
   font-style: normal;
   font-weight: 250;
   line-height: 150%;
+}
+
+.text-input {
+  color: var(--neutral-400, #BBB);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; 
+}
+
+.text-button {
+  color: var(--neutral-black, #131215);
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 150% */
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
 }
 
 .text-graphic {
@@ -177,4 +207,14 @@ body {
 .scroll-hidden::-webkit-scrollbar {
   width: 0;
   height: 0;
+}
+
+.text-owner {
+  color: var(--neutral-400, #BBB);
+  text-align: center;
+  font-family: MADE Outer Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 25px; /* 178.571% */
 }
