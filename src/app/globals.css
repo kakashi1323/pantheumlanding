@@ -72,6 +72,20 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.text-small-title-mobile {
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 150% */
+  letter-spacing: 2.88px;
+  text-transform: uppercase;
+  background: linear-gradient(226deg, #A953FF 0%, #6048FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .text-title {
   color: #FFF;
   font-family: MADE Outer Sans;
@@ -79,6 +93,15 @@ body {
   font-style: normal;
   font-weight: 250;
   line-height: 109.091%;
+}
+
+.text-title-mobile {
+  color: var(--neutral-white, #FFF);
+  font-family: MADE Outer Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 56px;
 }
 
 .text-title-1 {
@@ -100,6 +123,15 @@ body {
   line-height: 133.333%;
 }
 
+.text-title-2-mobile {
+  color: var(--neutral-white, #FFF);
+  font-family: MADE Outer Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 42px;
+}
+
 .text-title-3 {
   color: #FFF;
   font-family: MADE Outer Sans;
@@ -107,6 +139,16 @@ body {
   font-style: normal;
   font-weight: 250;
   line-height: 150%;
+}
+
+.text-title-3-mobile {
+  color: var(--neutral-white, #FFF);
+  text-align: center;
+  font-family: MADE Outer Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 36px; /* 150% */
 }
 
 .text-title-4 {
@@ -156,6 +198,15 @@ body {
   text-transform: uppercase;
 }
 
+.text-graphic-mobile {
+  font-family: MADE Outer Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 42px; /* 131.25% */
+  text-transform: uppercase;
+}
+
 .text-graphic-2 {
   font-family: MADE Outer Sans;
   font-size: 40px;
@@ -168,9 +219,17 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.text-graphic-2-mobile {
+  color: #646369;
+  font-family: MADE Outer Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 48px; /* 120% */
+}
+
 .graphic-button {
   display: inline-flex;
-  height: 88px;
   padding: 24px 32px;
   align-items: center;
   gap: 10px;
@@ -217,4 +276,38 @@ body {
   font-style: normal;
   font-weight: 250;
   line-height: 25px; /* 178.571% */
+}
+
+.text-price {
+  color: var(--neutral-500, #646369);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+}
+
+.image-frame-mobile {
+  max-width: 566px;
+  width: 100%;
+  height: 356px;
+}
+
+.image-frame {
+  width: 566px;
+  height: 566px;
+}
+
+.max-width-full {
+  max-width: 1440px;
+}
+
+.max-width-full-2 {
+  max-width: 1204px;
+}
+
+.max-width-100 {
+  max-width: 100vw;
 }

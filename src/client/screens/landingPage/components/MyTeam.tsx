@@ -10,7 +10,7 @@ const MyTeam = (props: any) => {
         <div className="flex w-full flex-col items-center">
           <div className="flex w-full mt-3 items-center" style={{ maxWidth: 1120 }}>
             <div className="flex">{PlusIcon}</div>
-            <div className="text-small-title">
+            <div className="text-small-title-mobile sm:text-small-title">
               Our Team
             </div>
           </div>

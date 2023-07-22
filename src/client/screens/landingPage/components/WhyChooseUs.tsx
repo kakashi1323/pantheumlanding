@@ -1,4 +1,4 @@
-import { CONTENT_FULL_SIZE, Cisco, Coinbase, Google, Nasa, PlusIcon, RightCaretMini, A, ChessLine } from "@/client/constants"
+import { CONTENT_FULL_SIZE, Cisco, Coinbase, Google, Nasa, PlusIcon, RightCaretMini, A, ChessLine, MobileCaretRight } from "@/client/constants"
 import { memo } from "react"
 
 const HorizontalLine = <div className="flex my-14 w-full h-0" style={{
@@ -18,18 +18,19 @@ const WhyChooseUs = (props: any) => {
       <div className="flex w-full flex-col mt-44 items-center">
         <div className="flex mt-3 w-full flex-row items-center" style={{ maxWidth: 920 }}>
           <div className="mr-2">{PlusIcon}</div>
-          <div className="text-small-title">
+          <div className="text-small-title-mobile sm:text-small-title">
             Why Choose Us
           </div>
         </div>
 
         <div className="flex flex-row w-full flex-wrap justify-center" style={{ maxWidth: CONTENT_FULL_SIZE }}>
-          <div className="flex rounded-4xl bg-neutral-800" style={{ width: 566, height: 566 }}></div>
-          <div className="flex pl-36 flex-col mt-14">
+          <div className="flex rounded-4xl bg-neutral-800 image-frame-mobile sm:image-frame"></div>
+          <div className="flex lg:pl-36 flex-col mt-14">
             <div className="flex flex-col">
               <div className="flex flex-row items-center">
-                <div className="mr-6">{RightCaretMini}</div>
-                <div className="text-title-3">Quality is First</div>
+                <div className="hidden lg:flex mr-6">{RightCaretMini}</div>
+                <div className="flex lg:hidden mr-4">{MobileCaretRight}</div>
+                <div className="text-title-3 whitespace-nowrap">Quality is First</div>
               </div>
               <div className="flex flex-row text-description" style={{ maxWidth: 448 }}>Our team of experts is committed to delivering exceptional, tailored solutions that exceed your expectations.</div>
               <div className="flex flex-row text-description mt-8" style={{ maxWidth: 448 }}>We work closely with you to understand your unique needs and challenges, and ensure that the final product meets the highest standards of quality, verified by third-party testing and auditing.</div>
@@ -61,12 +62,15 @@ const WhyChooseUs = (props: any) => {
         </div>
 
         <div className="flex flex-col w-full flex-wrap items-center mt-40" style={{ maxWidth: CONTENT_FULL_SIZE }}>
-          <div className="flex flex-row items-center text-title-3">
+          <div className="flex flex-col sm:flex-row items-start lg:items-center text-title-3">
             <div className="flex text-title-3">
               Innovative Blockchain Solutions
             </div>
-            <div className="mx-4">{RightCaretMini}</div>
-            <div className="flex text-title-3">
+            <div className="hidden lg:flex mx-4">{RightCaretMini}</div>
+            <div className="flex flex-row items-center lg:hidden mx-4">{MobileCaretRight}<div className="flex text-title-3">
+              You
+            </div></div>
+            <div className="hidden lg:flex text-title-3">
               You
             </div>
           </div>
@@ -77,7 +81,7 @@ const WhyChooseUs = (props: any) => {
           </div>
         </div>
 
-        <div className="flex w-full justify-center">
+        <div className="flex w-full justify-center mt-4">
           <div className="flex w-fit relative" style={{ paddingBottom: 270 }}>
             {ChessLine}
             <div className="flex w-full bg-transparent absolute z-20 overflow-hidden justify-center">
@@ -88,9 +92,8 @@ const WhyChooseUs = (props: any) => {
                 height: "432px",
               }}></div>
             </div>
-            <div className="flex w-full absolute flex-row justify-center z-30" style={{ maxWidth: CONTENT_FULL_SIZE, top: 420 }}>
-              <div className="flex flex-row justify-center flex-wrap w-full" style={{
-                maxWidth: 1204,
+            <div className="flex w-full absolute flex-row justify-center z-30 max-w-100 lg:max-width-full" style={{ top: 420 }}>
+              <div className="flex flex-row justify-center flex-wrap w-screen lg:w-full max-w-100 lg:max-width-full-2" style={{
                 minHeight: 360,
                 background: "linear-gradient(180deg, #131215 0%, #131215 100%)",
               }}
@@ -100,6 +103,10 @@ const WhyChooseUs = (props: any) => {
                 {A}
                 {Coinbase}
                 {Cisco}
+                <div className="flex lg:hidden" style={{
+                  width: 230,
+                  height: 120
+                }}></div>
               </div>
             </div>
           </div>

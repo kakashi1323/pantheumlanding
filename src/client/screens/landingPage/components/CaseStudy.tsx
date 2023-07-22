@@ -10,7 +10,7 @@ const CaseStudy = (props: any) => {
         <div className="flex w-full flex-col items-center">
           <div className="flex mt-3 flex-col items-center">
             <div className="flex">{PlusIcon}</div>
-            <div className="text-small-title">
+            <div className="text-small-title-mobile sm:text-small-title">
               Case Study
             </div>
           </div>

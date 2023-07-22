@@ -7,7 +7,7 @@ const PageFixed = (props: any) => {
   const { children } = props;
 
   return <>
-    <div className="fixed bottom-6 right-6" style={{ zIndex: 80 }}>
+    <div className="hidden md:flex fixed bottom-6 right-6" style={{ zIndex: 80 }}>
       <div className={`flex rounded-full p-4 justify-center items-center cursor-pointer w-14 h-14 transition-all hover:-translate-y-2
        shadow-inner shadow-slate-50
       `}
