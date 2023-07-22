@@ -160,6 +160,15 @@ body {
   line-height: 150%;
 }
 
+.text-title-4-mobile {
+  color: var(--neutral-white, #FFF);
+  font-family: MADE Outer Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 56px;
+}
+
 .text-title-5 {
   color: #FFF;
   font-family: MADE Outer Sans;

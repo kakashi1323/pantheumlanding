@@ -4,9 +4,10 @@ import { memo } from "react"
 const ContactUs = (props: any) => {
 
   return (
-    <div className="flex w-full flex-col items-center mt-52 relative" style={{
+    <div className="flex w-full flex-col items-center mt-52 mx-4 relative px-2" style={{
       minHeight: 1309,
       borderRadius: "48px",
+      width: "calc(100% - 2rem)",
       background: "linear-gradient(167deg, #884FFF 0%, rgba(96, 72, 255, 0.00) 45%)"
     }}>
       <div id={"contact-us"}></div>
@@ -67,14 +68,14 @@ const ContactUs = (props: any) => {
       </div>
 
       <div className="flex w-full flex-row justify-center mt-16" style={{ maxWidth: CONTENT_FULL_SIZE }}>
-        <div className="flex w-full flex-row justify-start items-center" style={{ maxWidth: 684 }}>
-          <div className="text-button px-6 py-3 rounded-full bg-white">
+        <div className="flex w-full flex-row flex-wrap justify-start items-center" style={{ maxWidth: 684 }}>
+          <div className="text-button px-6 py-3 rounded-full bg-white whitespace-nowrap">
             CONTACT NOW
           </div>
           <div className="mx-4">
             {RightCaretMiniWhite}
           </div>
-          <ul className="flex flex-row mr-4 items-center">
+          <ul className="flex flex-row mr-4 mt-4 lg:mt-0 items-center">
             <li className="text-description">Facebook</li>
             <div className="border-t border-hyphen w-3 h-0 mx-3"></div>
             <li className="text-description">Twitter</li>
