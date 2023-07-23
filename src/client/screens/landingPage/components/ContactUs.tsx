@@ -69,7 +69,7 @@ const ContactUs = (props: any) => {
 
       <div className="flex w-full flex-row justify-center mt-16" style={{ maxWidth: CONTENT_FULL_SIZE }}>
         <div className="flex w-full flex-row flex-wrap justify-start items-center" style={{ maxWidth: 684 }}>
-          <div className="text-button px-6 py-3 rounded-full bg-white whitespace-nowrap cursor-pointer">
+          <div className="text-button px-6 py-3 rounded-full bg-white hover:bg-active-01 transition-all whitespace-nowrap cursor-pointer">
             CONTACT NOW
           </div>
           <div className="mx-4">

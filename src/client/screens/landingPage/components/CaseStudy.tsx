@@ -38,7 +38,7 @@ const CaseStudy = (props: any) => {
               </div>
 
               <div className="flex mt-52">
-                <div className={"cursor-pointer rounded-full border border-graphic-001 w-fit flex flex-row items-center text-center px-8 py-3"}>
+                <div className={"cursor-pointer rounded-full border border-graphic-001 hover:bg-active-01 transition-all w-fit flex flex-row items-center text-center px-8 py-3"}>
                   <div className="text-graphic text-graphic-001 font-thin" style={{ color: "white", fontSize: 12, lineHeight: "18px" }}>View more work</div>
                 </div>
               </div>

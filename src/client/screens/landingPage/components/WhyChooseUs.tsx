@@ -75,7 +75,7 @@ const WhyChooseUs = (props: any) => {
             </div>
           </div>
           <div className="flex flex-col w-full flex-wrap items-center mt-8">
-            <div className={"cursor-pointer rounded-full border border-graphic-001 w-fit flex flex-row items-center text-center px-8 py-3"}>
+            <div className={"cursor-pointer rounded-full border border-graphic-001 hover:bg-active-01 transition-all w-fit flex flex-row items-center text-center px-8 py-3"}>
               <div className="text-graphic text-graphic-001 font-thin" style={{ color: "white", fontSize: 12, lineHeight: "18px" }}>Contact US</div>
             </div>
           </div>
