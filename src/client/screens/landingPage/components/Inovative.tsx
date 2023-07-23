@@ -20,13 +20,13 @@ const Inovative = (props: any) => {
         </div>
         <div className="flex w-full mt-6">
           <ul className="flex flex-row mr-4 items-center">
-            <li className="text-description">Facebook</li>
+            <li className="text-description hover:text-active-01 hover:underline transition-all">Facebook</li>
             <div className="border-t border-hyphen w-3 h-0 mx-3"></div>
-            <li className="text-description">Twitter</li>
+            <li className="text-description hover:text-active-01 hover:underline transition-all">Twitter</li>
             <div className="border-t border-hyphen w-3 h-0 mx-3"></div>
-            <li className="text-description">Github</li>
+            <li className="text-description hover:text-active-01 hover:underline transition-all">Github</li>
             <div className="border-t border-hyphen w-3 h-0 mx-3"></div>
-            <li className="text-description">Telegram</li>
+            <li className="text-description hover:text-active-01 hover:underline transition-all">Telegram</li>
           </ul>
         </div>
       </div>

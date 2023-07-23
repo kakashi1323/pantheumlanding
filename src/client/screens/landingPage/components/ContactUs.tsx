@@ -51,13 +51,13 @@ const ContactUs = (props: any) => {
       <div className="flex w-full flex-row mt-8 justify-center" style={{ maxWidth: CONTENT_FULL_SIZE }}>
         <div className="flex w-full flex-col justify-start items-start" style={{ maxWidth: 684 }}>
           <div className="flex w-full max-w-xs rounded-full px-6 py-3 bg-input-bg backdrop-blur-xl gap-3">
-            <input className="text-input border-none w-full bg-transparent" placeholder="First name and last name" />
+            <input className="text-input border-none w-full bg-transparent selection:border-none focus:outline-none" placeholder="First name and last name" />
           </div>
           <div className="flex w-full max-w-xs rounded-full px-6 py-3 bg-input-bg backdrop-blur-xl gap-3 mt-4">
-            <input className="text-input border-none w-full bg-transparent" placeholder="Email" />
+            <input className="text-input border-none w-full bg-transparent selection:border-none focus:outline-none" placeholder="Email" />
           </div>
           <div className="flex w-full justify-between max-w-xs rounded-full px-6 py-3 bg-input-bg backdrop-blur-xl gap-3 mt-4">
-            <input className="text-input border-none w-full bg-transparent" placeholder="I need help" />
+            <input className="text-input border-none w-full bg-transparent selection:border-none focus:outline-none" placeholder="I need help" />
             <select className="text-input border-none bg-transparent" defaultValue={"nft_services"} style={{ color: "#BBB" }}>
               <option value="nft_services text-input">
                 NFT Services
@@ -69,20 +69,20 @@ const ContactUs = (props: any) => {
 
       <div className="flex w-full flex-row justify-center mt-16" style={{ maxWidth: CONTENT_FULL_SIZE }}>
         <div className="flex w-full flex-row flex-wrap justify-start items-center" style={{ maxWidth: 684 }}>
-          <div className="text-button px-6 py-3 rounded-full bg-white whitespace-nowrap">
+          <div className="text-button px-6 py-3 rounded-full bg-white whitespace-nowrap cursor-pointer">
             CONTACT NOW
           </div>
           <div className="mx-4">
             {RightCaretMiniWhite}
           </div>
           <ul className="flex flex-row mr-4 mt-4 lg:mt-0 items-center">
-            <li className="text-description">Facebook</li>
+            <li className="text-description hover:text-active-01 hover:underline transition-all">Facebook</li>
             <div className="border-t border-hyphen w-3 h-0 mx-3"></div>
-            <li className="text-description">Twitter</li>
+            <li className="text-description hover:text-active-01 hover:underline transition-all">Twitter</li>
             <div className="border-t border-hyphen w-3 h-0 mx-3"></div>
-            <li className="text-description">Github</li>
+            <li className="text-description hover:text-active-01 hover:underline transition-all">Github</li>
             <div className="border-t border-hyphen w-3 h-0 mx-3"></div>
-            <li className="text-description">Telegram</li>
+            <li className="text-description hover:text-active-01 hover:underline transition-all">Telegram</li>
           </ul>
         </div>
       </div>
