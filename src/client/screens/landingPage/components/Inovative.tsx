@@ -1,4 +1,4 @@
-import { CONTENT_FULL_SIZE, BigCaretRight, MobileCaretRight } from "@/client/constants"
+import { CONTENT_FULL_SIZE, BigCaretRight, MobileCaretRight, RightCaretMini, RightCaretMiniWhite } from "@/client/constants"
 import { memo } from "react"
 
 const Inovative = (props: any) => {
@@ -10,9 +10,9 @@ const Inovative = (props: any) => {
         <div className="flex text-title-mobile sm:text-title flex-row items-end" style={{ maxWidth: 480 }}>
           Innovative Blockchain
         </div>
-        <div className="flex w-full text-title-mobile sm:text-title flex-row items-end" style={{ maxWidth: 600 }}>
+        <div className="flex w-full text-title-mobile sm:text-title flex-row items-center" style={{ maxWidth: 600 }}>
           Solutions <span className="sm:hidden mx-4">{MobileCaretRight}</span>
-          <span className="hidden sm:block mx-4">{BigCaretRight}</span> You
+          <span className="hidden sm:block mx-4">{RightCaretMiniWhite}</span> You
         </div>
         <div className="flex w-full mt-4 text-base text-description" style={{ maxWidth: 440 }}>
           We strive to deliver innovative solutions that enable
